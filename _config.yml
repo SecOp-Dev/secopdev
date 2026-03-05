@@ -1,14 +1,14 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Sean Cullen - Cloud Security Architect Resume
+title: Sean Cullen - Cloud Security Architect
 url: 'https://sean.secop.dev'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: Cloud Security Architecture Resume
+description: Cloud Security Architecture
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: green # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
