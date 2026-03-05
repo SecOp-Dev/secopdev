@@ -20,7 +20,7 @@ sidebar:
   website: https://secop.dev # Include the full website URL, including "http://" or "https://".
   linkedin: seanrcullen
   xing: #alandoe
-  github: secopdev
+  github: sudononymouse
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
@@ -40,24 +40,18 @@ sidebar:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Riding (fixing) my dirt bike
       link:
 
 
-    - item: Snowboarding
+    - item: DIY Projects
       link:
 
 
-    - item: Cooking
+    - item: Grilling for my family
       link:
 
 
