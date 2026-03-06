@@ -80,26 +80,26 @@ experiences:
     company: Novolex - Charlotte, NC 
     details: |
         Design, own, and deliver enterprise security reference architectures for a multi-tenant, cloud-native environment, ensuring end-to-end project execution from planning to deployment. Focus on secure-by-design patterns (least-privilege identity model, microsegmentation, fault-tolerant telemetry), threat-informed detection engineering, and automated mitigation pipelines. Serve as incident response lead, validating designs through continuous adversary emulation to ensure resiliency, measure risk reduction, and drive operational readiness across the enterprise.
-        •	Directed incident response and architectural changes, leading cross-functional teams (IAM, network, endpoint, stakeholders) to rapidly contain and remediate threats.
-        •	Led strategic security architecture projects balancing risk reduction, cost optimization, and delivery timelines, directly improving enterprise security posture.
-        •	Developed conditional security orchestration, mitigating risk across 10,000 endpoints and 25,000 identities.
-        •	Designed & integrated MDR architecture spanning 70+ technologies, ensuring high availability, data integrity, and operational scalability in under 150 days.
-        •	Partner with architecture, IAM, and network teams to adopt secure design patterns (zero-trust), least-privilege access controls across endpoint, identity, and detection pipelines.
+        \n•	Directed incident response and architectural changes, leading cross-functional teams (IAM, network, endpoint, stakeholders) to rapidly contain and remediate threats.
+        \n•	Led strategic security architecture projects balancing risk reduction, cost optimization, and delivery timelines, directly improving enterprise security posture.
+        \n•	Developed conditional security orchestration, mitigating risk across 10,000 endpoints and 25,000 identities.
+        \n•	Designed & integrated MDR architecture spanning 70+ technologies, ensuring high availability, data integrity, and operational scalability in under 150 days.
+        \n•	Partner with architecture, IAM, and network teams to adopt secure design patterns (zero-trust), least-privilege access controls across endpoint, identity, and detection pipelines.
   - role: SOC Analyst I
     time: 2021 - 2023
     company: Pactiv Evergreen - Chicago, IL
     details: |
         Built the organization’s operational foundations for detection, response automation, and secure platform adoption, evolving into a full-time engineering role. Managed SIEM and SOAR platforms, developing behavioral threat analytics, designing automated response workflows, and building threat-hunting dashboards to enhance enterprise-wide visibility and incident response. Conducted adversary emulation campaigns to enumerate & remediate security weaknesses across the environment.        
-        •	Designed event-driven security orchestration (SOAR) and conditional response patterns assuring rapid, repeatable remediation across 10,000 endpoints & 25,000 identities.
-        •	Authored Incident Response Plan and automated response playbooks, aligning security orchestration with human decision points and organizational risk objectives.
-        •	Systemic threat modeling & attack-surface assessments: Active Directory resilience, executive impersonation, enabling strategic prioritization of architectural remediation.
+        \n•	Designed event-driven security orchestration (SOAR) and conditional response patterns assuring rapid, repeatable remediation across 10,000 endpoints & 25,000 identities.
+        \n•	Authored Incident Response Plan and automated response playbooks, aligning security orchestration with human decision points and organizational risk objectives.
+        \n•	Systemic threat modeling & attack-surface assessments: Active Directory resilience, executive impersonation, enabling strategic prioritization of architectural remediation.
   - role: Integration Engineer
     time: 2012 - 2014
     company: Business IT Source, London
     details: |
       Leveraged a mechanical engineering background and Six Sigma methodology to optimize IT workflows and streamline technical processes for 6+ Fortune 500 organizations.
-      •    Seamless integration of commercial compute resources into existing enterprise technology infrastructures.
-      •    On-site engineering and customer management.
+      \n•    Seamless integration of commercial compute resources into existing enterprise technology infrastructures.
+      \n•    On-site engineering and customer management.
 
 certifications:
   title: Training
