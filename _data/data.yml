@@ -7,7 +7,7 @@
     credentialname: #Github
     details: |
 #      Certificate of Completion.
-  - name: Pentest+
+  - name: Pentest+ (V11 & V12)
     start: #2019
     end:
     organization: CompTIA
@@ -15,7 +15,6 @@
     credentialurl: #www.github.com
     credentialname: #Github
     details: |
-      V11 & V12
   - name: CComputer Hacking Forensic Investigator
     start: #2019
     end:
@@ -55,14 +54,14 @@
     organization: CompTIA
     credentialid: #111-222
     credentialurl: #www.github.comprojects:  title: Projects  intro: >  assignments:  - title: Endpoint Detection & Response    link: #"#hook"    tagline: "Led enterprise initiative to standardize endpoint security across a multi-tenant environment through policy development and scoped deployment of Microsoft Defender, CrowdStrike & DLP agents across 10,000 endpoints to establish consistent detection, prevention, and response capabilities. Implemented unified security baselines, telemetry collection, and policy governance to improve threat visibility, reduce configuration drift, and strengthen endpoint protection across all business units.  
-    🔒💻🛡️🦅"  - title: Microsoft Sentinel    link: "#"    tagline: "Designed and implemented a multi-tenant cloud security architecture using Microsoft Sentinel, enabling:  
-    - Centralized security monitoring and detection across distributed cloud and on-premises environments.  
-    - Designed and curated scalable log ingestion, cross-tenant data integration, and detection engineering workflows to support unified threat visibility.  
+    🔒💻🛡️🦅"  - title: Microsoft Sentinel    link: "#"    tagline: "Designed and implemented a multi-tenant cloud security architecture using Microsoft Sentinel, enabling:  \n
+    - Centralized security monitoring and detection across distributed cloud and on-premises environments.  \n
+    - Designed and curated scalable log ingestion, cross-tenant data integration, and detection engineering workflows to support unified threat visibility.  <br></br>
     - Built automated response to ensure consistent security governance application across the enterprise.  
-    🕵🏻‍♂️𖦏🤖☁️"  - title: MDR Architecture    link: "#"    tagline: | 
-        Served as SOC lead & lead engineer throughout Managed Detection and Response (MDR) provider integration, 70 hybrid cloud and on-premises telemetry sources onboarded (ahead of schedule) in under 150 days. Architect redundant Unix-based log collection and secure data forwarding across diverse infrastructure resulting in drastic:  
-        - Threat detection enhancements - 2,000 unique rules.  
+    🕵🏻‍♂️𖦏🤖☁️"  - title: MDR Architecture    link: "#"    tagline: |
+        Served as SOC lead & lead engineer throughout Managed Detection and Response (MDR) provider integration, 70 hybrid cloud and on-premises telemetry sources onboarded (ahead of schedule) in under 150 days. Architect redundant Unix-based log collection and secure data forwarding across diverse infrastructure resulting in drastic:    
+        - Threat detection enhancements - 2,000 unique rules.    
         - MTTR Reduction - 50 %  
-        - Depth of field - Single-pane-of-glass for query & remediation capabiltiies across two dozen portals.  
+        - Visibility Enhancements - Single-pane-of-glass for query & remediation capabiltiies across two dozen portals.  
         - Automated response capabilities - remediate across endpoints, identities, and cloud environments.  
         🔐📡🪵 # - title: Atom #   link: "#" #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps." # # - title: Delta #   link: "#" #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"#oss:#  title: OSS Contributions#  intro: >#    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.#  contributions:#  - title: Tempo#    link: "#"#    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"##  - title: Atom#    link: "#"#    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."##  - title: Delta#    link: "#"#    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"publications:  title: #Publications  intro: |  #     You can list your publications in this section. Lorem ipsum dolor sit  #     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc  #     bibendum fringilla a eu lectus.  papers:  #- title: The Art of Computer Programming  #  link: "#"  #  authors: Donald E. Knuth  #  conference: Addison-Wesley, 1968  #  #- title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"  #  link: "#"  #  authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.  #  conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"  #  #- title: A syntax directed compiler for Algol 60  #  link: "#"  #  authors: Edgar T. Irons  #  conference: "Comm. ACM 4 (1961), 51–55"#recommendations:#  title: Recommendations#  list:#  - person: Yareli Perez#    email: perezyareli@example.com#    phone: 012 345 6789#    role: General Director at example.com#    recommendation: |#      Alan Doe is a super employee!#  - person: Lara Henderson#    email: larah@example.com#    phone: 012 345 6789#    role: General Director at example.com#    recommendation: |#      I would like to work with Alan Doe again!##      He is a great employee!skills:  title: Skills &amp; Proficiency  toolset:  - name: Azure Architecture Administration & Hardening - Entra, Identity Protection, Cloud Posture Management    level: 98%  - name: Security Orchestration Development    level: 98%  - name: Behavioral Threat Analytic Engineering    level: 98%  - name: Digital Forensics & Incident Response (DFIR)    level: 95%  - name: Python Tool Development    level: 85%  - name: Adversary Emulation Campaign    level: 60%footer: >  Designed with <i class="fas fa-heart"></i> by <a href="https://sean.secop.dev" target="_blank" rel="nofollow">Sean Cullen</a>
