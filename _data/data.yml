@@ -62,8 +62,8 @@
     - Centralized security monitoring and detection across distributed cloud and on-premises environments.  <br></br>
     - Designed and curated scalable log ingestion, cross-tenant data integration, and detection engineering workflows to support unified threat visibility.  <br></br>
     - Built automated response to ensure consistent security governance application across the enterprise.  <br></br>
-    🕵🏻‍♂️𖦏🤖☁️"  - title: MDR Architecture    link: "#"    tagline: "Served as SOC lead & lead engineer throughout Managed Detection and Response (MDR) provider integration, 70 hybrid cloud and on-premises telemetry sources onboarded (ahead of schedule) in under 150 days. Architect redundant Unix-based log collection and secure data forwarding across diverse infrastructure resulting in drastic:<br></br>
-        - Threat detection enhancements - 2,000 unique rules.<br></br>
+    🕵🏻‍♂️𖦏🤖☁️"  - title: MDR Architecture    link: "#"    tagline: "Served as SOC lead & lead engineer throughout Managed Detection and Response (MDR) provider integration, 70 hybrid cloud and on-premises telemetry sources onboarded (ahead of schedule) in under 150 days. Architect redundant Unix-based log collection and secure data forwarding across diverse infrastructure resulting in drastic:<br>
+        - Threat detection enhancements - 2,000 unique rules.<br />
         - MTTR Reduction - 50 % <br></br>
         - Visibility Enhancements - Single-pane-of-glass for query & remediation capabiltiies spanning 12+ SaaS solutions.<br></br>
         - Automated response implementation - across endpoints, identities, and cloud environments.<br></br>
