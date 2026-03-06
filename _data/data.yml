@@ -62,26 +62,11 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: B.B.A. CyberSecurity
+    university: University of Texas at San Antonio
+    time: 2016 - 2021
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+      Completed a B.B.A. program with a cybersecurity focus, gaining hands-on experience in operating system hardening, malware analysis, and Python scripting for security automation and threat investigation.
         - Bullet point
         - Bullet point
 
@@ -103,39 +88,32 @@ experiences:
       architecto beatae vitae dicta sunt explicabo.
         - Bullet point
         - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+  - role: SOC Analyst I
+    time: 2021 - 2023
+    company: Pactiv Evergreen, Chicago
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
+      Built the organization’s operational foundations for detection, response automation, and secure platform adoption while evolving into a full-time engineering role.
+        •	Designed event-driven security orchestration (SOAR) and conditional response patterns assuring rapid, repeatable remediation across 10,000 endpoints & 25,000 identities.
+        •	Authored Incident Response Plan and automated response playbooks, aligning security orchestration with human decision points and organizational risk objectives.
+        •	Systemic threat modeling & attack-surface assessments: Active Directory resilience, executive impersonation, enabling strategic prioritization of architectural remediation.
+  - role: Integration Engineer
     time: 2012 - 2014
     company: Amazon, London
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+      Brought mechanical engineering background to IT, leveraging the six-sigma methodology to streamline technical processes for 6+ Fortune 500 organizations.
         - Bullet point
         - Bullet point
 
 certifications:
-  title: Certifications
+  title: Training
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: CISSP
+    start: 2023
+    end: 2023
+    organization: ISC2
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
       Details about cert. Lorem ipsum dolor sit amet, consectetur
       adipiscing elit.
@@ -170,44 +148,43 @@ certifications:
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Endpoint Detection & Response
+    link: #"#hook"
+    tagline: "Led an enterprise initiative to standardize endpoint security across a multi-tenant environment by architecting and deploying Microsoft Defender and CrowdStrike across 10,000 endpoints establish consistent detection, prevention, and response capabilities. Implemented unified security baselines, telemetry collection, and policy governance to improve threat visibility, reduce configuration drift, and strengthen endpoint protection across all business units. 🔐💻"
 
-  - title: DevStudio
+  - title: Microsoft Sentinel
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "Designed and implemented a multi-tenant cloud security architecture using Microsoft Sentinel, enabling centralized security monitoring and detection across distributed cloud and on-premises environments. Architected scalable log ingestion, cross-tenant data integration, and detection engineering workflows to support unified threat visibility, automated response, and consistent security governance across the enterprise."
 
-  - title: Tempo
+  - title: MDR Architecture
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "Served as SOC lead & primary engineer throughout Managed Detection and Response (MDR) platform integrations, consisting of 70 hybrid cloud and on-premises telemetry sources. Architecting redundant Unix-based log collection and secure data forwarding across diverse infrastructure. Enabled centralized threat detection and accelerated incident response by expanding visibility and automated response capabilities across endpoints, identities, and cloud environments. 🔐☁️"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+ # - title: Atom
+ #   link: "#"
+ #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+ #
+ # - title: Delta
+ #   link: "#"
+ #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#oss:
+#  title: OSS Contributions
+#  intro: >
+#    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#  contributions:
+#  - title: Tempo
+#    link: "#"
+#    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#  - title: Atom
+#    link: "#"
+#    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#  - title: Delta
+#    link: "#"
+#    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
@@ -231,44 +208,44 @@ publications:
     authors: Edgar T. Irons
     conference: "Comm. ACM 4 (1961), 51–55"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+#recommendations:
+#  title: Recommendations
+#  list:
+#  - person: Yareli Perez
+#    email: perezyareli@example.com
+#    phone: 012 345 6789
+#    role: General Director at example.com
+#    recommendation: |
+#      Alan Doe is a super employee!
+#  - person: Lara Henderson
+#    email: larah@example.com
+#    phone: 012 345 6789
+#    role: General Director at example.com
+#    recommendation: |
+#      I would like to work with Alan Doe again!
+#
+#      He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
+  - name: Azure Architecture - Entra, Identity Protection, Cloud Posture Management
     level: 98%
 
-  - name: Javascript & jQuery
+  - name: Security Orchestration Engineering
     level: 98%
 
-  - name: Angular
+  - name: Custom Behavioral Threat Analytics Development
     level: 98%
 
-  - name: HTML5 & CSS
+  - name: Adversary Emulation Campaign
     level: 95%
 
-  - name: Ruby on Rails
+  - name: Python Tool Development
     level: 85%
 
-  - name: Sketch & Photoshop
+  - name: Digital Forensics & Incident Response (DFIR)
     level: 60%
 
 footer: >
