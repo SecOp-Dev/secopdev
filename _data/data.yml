@@ -84,6 +84,16 @@ education:
 experiences:
   title: Experiences
   info:
+  - role: Security Analyst II
+    time: 2026 - Present
+    company: Novolex — Charlotte, NC | $9B+ revenue | Fortune 200 | scope exceeds title
+    details: |
+        Acting as lead architect/engineer for a full greenfield enterprise security stack — SIEM, SOAR, EDR, and internal MSSP-style multi-tenant operations. Official title Security Analyst II; ownership and scope are at the architecture-lead level.  <br />
+        •   Architecting a multi-tenant Microsoft Sentinel SIEM (delegated workspace model) with tenant isolation, cross-tenant detection federation, and RBAC governance — centralizing operations across independently governed business units.
+        •   Engineering Detection-as-Code pipelines (IaC/GitOps) to version, test, and promote analytic rules, hunt queries, and watchlists across tenants — cutting content-promotion cycle time from days to minutes.
+        •   Designing multi-tenant log ingestion (DCR normalization, per-tenant enrichment, ingestion-tier cost controls) standardizing onboarding and optimizing platform spend.
+        •   Building an internal MSSP-style operating model — standardized tenant onboarding, detection baselines, and SOAR playbooks delivered as repeatable, auditable units.
+
   - role: Security Analyst II (Acting Director of Security Operations)
     time: 2025 - 2026
     company: Novolex — Charlotte, NC | $9B+ revenue | post-merger integration of 15 entities
