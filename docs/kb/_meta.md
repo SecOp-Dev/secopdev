@@ -5,8 +5,6 @@ aliases: []
 tags:
   - type/project
   - "tier/2.0-career"
-  - "type/project"
-  - "tier/2.0-career"
   - "tool/secopdev-resume"
   - "capability/career-marketing"
   - "topic/professional-presence"
