@@ -2,8 +2,19 @@
   "directed": false,
   "multigraph": false,
   "graph": {},
-  "nodes": [],
+  "nodes": [
+    {
+      "label": "_meta.md",
+      "file_type": "document",
+      "source_file": ".readme/agent/_meta.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_agent_meta",
+      "community": 0,
+      "norm_label": "_meta.md"
+    }
+  ],
   "links": [],
   "hyperedges": [],
-  "built_at_commit": "34eaa576e9fbb6efd9f8032c7aa3feac7cd5e9d5"
+  "built_at_commit": "edcf4028fbc4208ea634ac62cd0c37fe339e182a"
 }
