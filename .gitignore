@@ -7,3 +7,5 @@ _site/
 Old*
 Sean*
 CLAUDE*
+graphify-out/cache/
+graphify-out/cost.json

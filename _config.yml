@@ -1,15 +1,15 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Sean Cullen - Director of Security Operations
+title: Sean Cullen - Security Engineer & Cloud Security Architect
 url: 'https://career.secop.dev'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: Sean Cullen — Director of Security Operations
-google_site_verification: # paste your token from Search Console here (e.g. abc123XYZ) & Cloud Security Architect specializing in SIEM/SOAR detection engineering, threat hunting, DFIR, automated incident response, and Microsoft Sentinel & Azure security.
+description: Sean Cullen — Security Engineer & Cloud Security Architect | Detection Engineering · Cloud Security · Incident Response
+google_site_verification: # paste your token from Search Console here (e.g. abc123XYZ)
 chrome_mobile_color: #0d1117 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Sass/SCSS
@@ -30,3 +30,6 @@ compress_html: # - https://career.secop.dev/
 port: 4000
 host: 0.0.0.0
 safe: false
+
+exclude:
+  - docs/
