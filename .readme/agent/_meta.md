@@ -11,7 +11,7 @@ tags:
 status: active
 created: 2026-07-02
 updated: 2026-07-02
-related: ["sean-cullen-professional-site", "resume"]
+related: ["sean-cullen-professional-site", "resume-data"]
 repo: "https://github.com/SecOp-Dev/secopdev"
 branch: master
 live: true
