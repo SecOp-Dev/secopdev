@@ -42,8 +42,14 @@ Source: `.planning/PROJECT.md` Active requirements, scoped from the codebase con
 
 ## Traceability
 
-<!-- Filled in by roadmapper during phase creation -->
-
 | Requirement | Phase |
 |-------------|-------|
-| (pending roadmap creation) | — |
+| BUILD-01 | Phase 1 |
+| BUILD-02 | Phase 1 |
+| ENV-01 | Phase 1 |
+| ENV-02 | Phase 1 |
+| SEC-01 | Phase 2 |
+| SEC-02 | Phase 2 |
+| REL-01 | Phase 3 |
+| PERF-01 | Phase 3 |
+| PERF-02 | Phase 3 |
