@@ -103,5 +103,9 @@
     "injection_blocking": true
   },
   "mode": "yolo",
-  "granularity": "coarse"
+  "granularity": "coarse",
+  "mempalace": {
+    "enabled": true,
+    "cross_project_tunnels": true
+  }
 }

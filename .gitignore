@@ -15,3 +15,7 @@ graphify-out/.graphify_analysis.json
 graphify-out/graph.html
 graphify-out/manifest.json
 graphify-out/[0-9]*/
+
+# MemPalace per-project files (issue #185)
+mempalace.yaml
+entities.json
