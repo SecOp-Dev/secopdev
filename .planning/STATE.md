@@ -23,7 +23,7 @@ See: .planning/PROJECT.md (updated 2026-08-05)
 Phase: 1 of 3 (Environment & Build Reliability)
 Plan: 0 of TBD in current phase
 Status: Ready to plan
-Last activity: 2026-08-05 — Roadmap created from REQUIREMENTS.md and CONCERNS.md audit
+Last activity: 2026-08-17 - Completed quick task 260817-kkj: render headshot.jpg in the resume web page at the top of the page in a modern, cohesive format
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -63,6 +63,12 @@ None yet.
 ### Blockers/Concerns
 
 None yet.
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 260817-kkj | render headshot.jpg in the resume web page at the top of the page in a modern, cohesive format | 2026-08-17 | b321f3a | [260817-kkj-render-headshot-jpg-in-the-resume-web-pa](./quick/260817-kkj-render-headshot-jpg-in-the-resume-web-pa/) |
 
 ## Deferred Items
 
