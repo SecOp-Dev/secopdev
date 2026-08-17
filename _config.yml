@@ -33,3 +33,4 @@ safe: false
 
 exclude:
   - docs/
+  - vendor/
