@@ -4,6 +4,7 @@ _site/
 .jekyll-metadata
 .jekyll-cache
 vendor/
+.bundle/
 .claude/
 Old*
 Sean*
