@@ -63,4 +63,15 @@
 @media (min-width: 992px) {}
 
 /* Large devices (1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: min(1500px, 92vw);
+  }
+}
+
+/* Extra-large / wide desktop (1600px and up) */
+@media (min-width: 1600px) {
+  .wrapper {
+    max-width: min(1700px, 88vw);
+  }
+}
