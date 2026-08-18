@@ -1,25 +1,26 @@
 # Graph Report - secopdev-resume  (2026-08-18)
 
 ## Corpus Check
-- 51 files · ~2,512,921 words
+- 51 files · ~2,513,108 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 689 nodes · 961 edges · 72 communities (57 shown, 15 thin omitted)
+- 691 nodes · 963 edges · 71 communities (56 shown, 15 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 50 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `229fa725`
+- Built from commit: `dec0f95b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_graphify|graphify]]
-- [[_COMMUNITY_secopdev-resume — Operator Report|secopdev-resume — Operator Report]]
-- [[_COMMUNITY_secopdev-resume — Tracker|secopdev-resume — Tracker]]
-- [[_COMMUNITY_all.min.js|all.min.js]]
-- [[_COMMUNITY_fontawesome.min.js|fontawesome.min.js]]
+- [[_COMMUNITY_Quick Task 260817-kkj Render Headshot JPG in Resume Sidebar Summary|Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary]]
+- [[_COMMUNITY_Project State|Project State]]
+- [[_COMMUNITY_260817-kkj-PLAN|260817-kkj-PLAN.md]]
+- [[_COMMUNITY_Deviations from Plan|Deviations from Plan]]
+- [[_COMMUNITY_260817-kkj-SUMMARY|260817-kkj-SUMMARY.md]]
+- [[_COMMUNITY_WINDOWS|WINDOWS.md]]
 - [[_COMMUNITY_all.js|all.js]]
 - [[_COMMUNITY_fontawesome.js|fontawesome.js]]
 - [[_COMMUNITY_conflict-detection.js|conflict-detection.js]]
@@ -27,10 +28,8 @@
 - [[_COMMUNITY_.slide|.slide]]
 - [[_COMMUNITY_conflict-detection.min.js|conflict-detection.min.js]]
 - [[_COMMUNITY_Testing Patterns|Testing Patterns]]
-- [[_COMMUNITY_Quick Task 260817-kkj Render Headshot JPG in Resume Sidebar Summary|Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary]]
 - [[_COMMUNITY_secopdev-resume — Project Tracker|secopdev-resume — Project Tracker]]
 - [[_COMMUNITY_secopdev-resume|secopdev-resume]]
-- [[_COMMUNITY_Project State|Project State]]
 - [[_COMMUNITY_provides|provides]]
 - [[_COMMUNITY_classParser|classParser]]
 - [[_COMMUNITY_provides|provides]]
@@ -46,6 +45,7 @@
 - [[_COMMUNITY_Roadmap secopdev-resume|Roadmap: secopdev-resume]]
 - [[_COMMUNITY_Technology Stack|Technology Stack]]
 - [[_COMMUNITY_Codebase Structure|Codebase Structure]]
+- [[_COMMUNITY_secopdev-resume — Operator Report|secopdev-resume — Operator Report]]
 - [[_COMMUNITY_secopdev-resume — Architecture|secopdev-resume — Architecture]]
 - [[_COMMUNITY_Onboarding Summary|Onboarding Summary]]
 - [[_COMMUNITY_Library|Library]]
@@ -58,18 +58,17 @@
 - [[_COMMUNITY_hexValueFromContent|hexValueFromContent]]
 - [[_COMMUNITY_regular.min.js|regular.min.js]]
 - [[_COMMUNITY_solid.min.js|solid.min.js]]
+- [[_COMMUNITY_secopdev-resume — Tracker|secopdev-resume — Tracker]]
 - [[_COMMUNITY_toArray|toArray]]
 - [[_COMMUNITY_toArray|toArray]]
-- [[_COMMUNITY_260817-kkj-PLAN|260817-kkj-PLAN.md]]
+- [[_COMMUNITY_graphify|graphify]]
 - [[_COMMUNITY_LICENSE|LICENSE.md]]
-- [[_COMMUNITY_WINDOWS|WINDOWS.md]]
 - [[_COMMUNITY_README|README.md]]
-- [[_COMMUNITY_Communities (70 total, 15 thin omitted)|Communities (70 total, 15 thin omitted)]]
 - [[_COMMUNITY_bootstrap.js|bootstrap.js]]
 - [[_COMMUNITY_ScrollSpy|ScrollSpy]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Communities (70 total, 15 thin omitted)` - 36 edges
+1. `Communities (72 total, 15 thin omitted)` - 38 edges
 2. `T()` - 14 edges
 3. `Architecture` - 12 edges
 4. `Graph Report - secopdev-resume  (2026-08-18)` - 11 edges
@@ -95,21 +94,21 @@
 ## Import Cycles
 - None detected.
 
-## Communities (72 total, 15 thin omitted)
+## Communities (71 total, 15 thin omitted)
 
-### Community 2 - "secopdev-resume — Operator Report"
-Cohesion: 0.25
-Nodes (7): 1. Overview, 2. Status & Next Steps, 3. Deep-Detail Documentation, 4. Structural Summary, 5. Recent Activity, Retrieval Notes, secopdev-resume — Operator Report
+### Community 0 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary"
+Cohesion: 0.13
+Nodes (14): Accomplishments, Auto-fixed Issues, Decisions Made, Dependency graph, Deviations from Plan, Environment Limitations (not auto-fixable, documented per Rule 3 exclusion reasoning), Files Created/Modified, Issues Encountered (+6 more)
 
-### Community 3 - "secopdev-resume — Tracker"
-Cohesion: 0.50
-Nodes (3): GSD Phases, Risks and Technical Debts, secopdev-resume — Tracker
+### Community 1 - "Project State"
+Cohesion: 0.17
+Nodes (11): Accumulated Context, Blockers/Concerns, Current Position, Decisions, Deferred Items, Pending Todos, Performance Metrics, Project Reference (+3 more)
 
-### Community 5 - "all.min.js"
+### Community 4 - "Deviations from Plan"
 Cohesion: 0.07
 Nodes (34): $1(), a2(), b1(), b2(), C1(), c2(), d2(), E() (+26 more)
 
-### Community 6 - "fontawesome.min.js"
+### Community 5 - "260817-kkj-SUMMARY.md"
 Cohesion: 0.08
 Nodes (30): bt(), ce(), ct(), _e(), Ee(), fe(), ft(), He() (+22 more)
 
@@ -137,21 +136,21 @@ Nodes (15): a(), c(), d(), e(), f(), g(), h(), i() (+7 more)
 Cohesion: 0.13
 Nodes (14): Build-Time Validation (Implicit), CI/CD Testing, Content Validation, Coverage, Debugging Strategy, Fixtures and Factories, Link Checking (Optional), Manual Validation Commands (+6 more)
 
-### Community 14 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary"
-Cohesion: 0.13
-Nodes (14): Accomplishments, Auto-fixed Issues, Decisions Made, Dependency graph, Deviations from Plan, Environment Limitations (not auto-fixable, documented per Rule 3 exclusion reasoning), Files Created/Modified, Issues Encountered (+6 more)
-
-### Community 15 - "secopdev-resume — Project Tracker"
+### Community 14 - "secopdev-resume — Project Tracker"
 Cohesion: 0.15
 Nodes (12): Blocked, How-to Guides, Next Action, Next Command, Objective, Problem, Related Projects, resume-data (+4 more)
 
-### Community 16 - "secopdev-resume"
+### Community 15 - "secopdev-resume"
 Cohesion: 0.15
 Nodes (12): Active, Business Context, Constraints, Context, Core Value, Evolution, Key Decisions, Out of Scope (+4 more)
 
-### Community 17 - "Project State"
-Cohesion: 0.17
-Nodes (11): Accumulated Context, Blockers/Concerns, Current Position, Decisions, Deferred Items, Pending Todos, Performance Metrics, Project Reference (+3 more)
+### Community 16 - "provides"
+Cohesion: 0.24
+Nodes (11): asIcon(), deGroup(), fillBlack(), joinStyles(), makeLayersCounterAbstract(), makeLayersTextAbstract(), provides(), searchPseudoElements() (+3 more)
+
+### Community 17 - "classParser"
+Cohesion: 0.22
+Nodes (11): byAlias(), byLigature(), byOldUnicode(), byUnicode(), classParser(), findIcon(), findIconDefinition(), getCanonicalIcon() (+3 more)
 
 ### Community 18 - "provides"
 Cohesion: 0.24
@@ -161,29 +160,29 @@ Nodes (11): asIcon(), deGroup(), fillBlack(), joinStyles(), makeLayersCounterAbs
 Cohesion: 0.22
 Nodes (11): byAlias(), byLigature(), byOldUnicode(), byUnicode(), classParser(), findIcon(), findIconDefinition(), getCanonicalIcon() (+3 more)
 
-### Community 20 - "provides"
-Cohesion: 0.24
-Nodes (11): asIcon(), deGroup(), fillBlack(), joinStyles(), makeLayersCounterAbstract(), makeLayersTextAbstract(), provides(), searchPseudoElements() (+3 more)
-
-### Community 21 - "classParser"
-Cohesion: 0.22
-Nodes (11): byAlias(), byLigature(), byOldUnicode(), byUnicode(), classParser(), findIcon(), findIconDefinition(), getCanonicalIcon() (+3 more)
-
-### Community 22 - "Codebase Concerns"
+### Community 20 - "Codebase Concerns"
 Cohesion: 0.18
 Nodes (10): Codebase Concerns, Dependencies at Risk, Fragile Areas, Known Bugs, Missing Critical Features, Performance Bottlenecks, Scaling Limits, Security Considerations (+2 more)
 
-### Community 23 - "Coding Conventions"
+### Community 21 - "Coding Conventions"
 Cohesion: 0.18
 Nodes (10): Code Style, Coding Conventions, Comments, Data Structure Design, Error Handling, Function Design, Import Organization, Logging (+2 more)
 
-### Community 24 - "External Integrations"
+### Community 22 - "External Integrations"
 Cohesion: 0.18
 Nodes (10): APIs & External Services, Authentication & Identity, CDN & External Resources, CI/CD & Deployment, Data Storage, Environment Configuration, External Integrations, Metadata & SEO (+2 more)
 
-### Community 25 - "v1 Requirements"
+### Community 23 - "v1 Requirements"
 Cohesion: 0.18
 Nodes (10): Build Reliability, Environment Currency, Out of Scope, Performance, Reliability / Dependencies, Requirements, Security Hardening, Traceability (+2 more)
+
+### Community 24 - "parseMeta"
+Cohesion: 0.17
+Nodes (13): asSymbol(), attributesParser(), callProvided(), chainHooks(), classArray(), generateMutation(), makeInlineSvgAbstract(), nextUniqueId() (+5 more)
+
+### Community 25 - "replace"
+Cohesion: 0.22
+Nodes (10): css(), ensureCss(), getPrefix(), htmlEscape(), insertCss(), joinAttributes(), mixout(), replace() (+2 more)
 
 ### Community 26 - "parseMeta"
 Cohesion: 0.22
@@ -193,77 +192,73 @@ Nodes (10): asSymbol(), attributesParser(), callProvided(), chainHooks(), genera
 Cohesion: 0.22
 Nodes (10): css(), ensureCss(), getPrefix(), htmlEscape(), insertCss(), joinAttributes(), mixout(), replace() (+2 more)
 
-### Community 28 - "parseMeta"
-Cohesion: 0.22
-Nodes (10): asSymbol(), attributesParser(), callProvided(), chainHooks(), generateMutation(), makeInlineSvgAbstract(), nextUniqueId(), onNode() (+2 more)
-
-### Community 29 - "replace"
-Cohesion: 0.22
-Nodes (10): css(), ensureCss(), getPrefix(), htmlEscape(), insertCss(), joinAttributes(), mixout(), replace() (+2 more)
-
-### Community 30 - "Roadmap: secopdev-resume"
+### Community 28 - "Roadmap: secopdev-resume"
 Cohesion: 0.22
 Nodes (8): Overview, Phase 1: Environment & Build Reliability, Phase 2: Security Hardening, Phase 3: Reliability & Performance Cleanup, Phase Details, Phases, Progress, Roadmap: secopdev-resume
 
-### Community 31 - "Technology Stack"
+### Community 29 - "Technology Stack"
 Cohesion: 0.25
 Nodes (7): Configuration, Frameworks, Key Dependencies, Languages, Platform Requirements, Runtime, Technology Stack
 
-### Community 32 - "Codebase Structure"
+### Community 30 - "Codebase Structure"
 Cohesion: 0.25
 Nodes (7): Codebase Structure, Directory Layout, Directory Purposes, Key File Locations, Naming Conventions, Special Directories, Where to Add New Code
 
-### Community 33 - "secopdev-resume — Architecture"
+### Community 31 - "secopdev-resume — Operator Report"
+Cohesion: 0.25
+Nodes (7): 1. Overview, 2. Status & Next Steps, 3. Deep-Detail Documentation, 4. Structural Summary, 5. Recent Activity, Retrieval Notes, secopdev-resume — Operator Report
+
+### Community 32 - "secopdev-resume — Architecture"
 Cohesion: 0.29
 Nodes (6): Integration points, Key design decisions, Module breakdown, Platform constraints, secopdev-resume — Architecture, What is this
 
-### Community 34 - "Onboarding Summary"
+### Community 33 - "Onboarding Summary"
 Cohesion: 0.33
 Nodes (5): Codebase Context, Docs Context, Onboarding Summary, Project State, Recommended Next Step
 
-### Community 40 - "hexValueFromContent"
+### Community 39 - "hexValueFromContent"
 Cohesion: 0.50
 Nodes (4): codePointAt(), hexValueFromContent(), toHex(), ucs2decode()
 
-### Community 42 - "hexValueFromContent"
+### Community 41 - "hexValueFromContent"
 Cohesion: 0.50
 Nodes (4): codePointAt(), hexValueFromContent(), toHex(), ucs2decode()
+
+### Community 44 - "secopdev-resume — Tracker"
+Cohesion: 0.50
+Nodes (3): GSD Phases, Risks and Technical Debts, secopdev-resume — Tracker
 
 ### Community 48 - "toArray"
-Cohesion: 0.67
-Nodes (3): classArray(), onTree(), toArray()
+Cohesion: 0.04
+Nodes (48): Communities (72 total, 15 thin omitted), Community 10 - "Architecture", Community 12 - "conflict-detection.min.js", Community 13 - "Testing Patterns", Community 14 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary", Community 15 - "secopdev-resume — Project Tracker", Community 16 - "secopdev-resume", Community 17 - "Project State" (+40 more)
 
 ### Community 49 - "toArray"
 Cohesion: 0.67
 Nodes (3): classArray(), onTree(), toArray()
 
-### Community 66 - "Communities (70 total, 15 thin omitted)"
-Cohesion: 0.04
-Nodes (46): Communities (70 total, 15 thin omitted), Community 10 - "Architecture", Community 12 - "conflict-detection.min.js", Community 13 - "Testing Patterns", Community 14 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary", Community 15 - "secopdev-resume — Project Tracker", Community 16 - "secopdev-resume", Community 17 - "Project State" (+38 more)
-
-### Community 68 - "bootstrap.js"
+### Community 67 - "bootstrap.js"
 Cohesion: 0.28
 Nodes (3): clearMenus(), getParent(), getTargetFromTrigger()
 
 ## Knowledge Gaps
-- **189 isolated node(s):** `Corpus Check`, `Summary`, `Graph Freshness`, `Community Hubs (Navigation)`, `God Nodes (most connected - your core abstractions)` (+184 more)
+- **191 isolated node(s):** `Corpus Check`, `Summary`, `Graph Freshness`, `Community Hubs (Navigation)`, `God Nodes (most connected - your core abstractions)` (+186 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `T()` connect `conflict-detection.min.js` to `all.min.js`, `fontawesome.min.js`?**
+- **Why does `T()` connect `conflict-detection.min.js` to `Deviations from Plan`, `260817-kkj-SUMMARY.md`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
-- **Why does `H1()` connect `all.min.js` to `conflict-detection.min.js`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **Why does `ye()` connect `fontawesome.min.js` to `conflict-detection.min.js`?**
+- **Why does `H1()` connect `Deviations from Plan` to `conflict-detection.min.js`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `ye()` connect `260817-kkj-SUMMARY.md` to `conflict-detection.min.js`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `T()` (e.g. with `H1()` and `a()`) actually correct?**
   _`T()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Corpus Check`, `Summary`, `Graph Freshness` to the rest of the system?**
-  _189 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `.show` be split into smaller, more focused modules?**
+  _191 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+- **Should `Accumulated Context` be split into smaller, more focused modules?**
   _Cohesion score 0.13970588235294118 - nodes in this community are weakly interconnected._
-- **Should `all.min.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.07265306122448979 - nodes in this community are weakly interconnected._

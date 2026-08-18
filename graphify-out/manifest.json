@@ -1,21 +1,21 @@
 {
   ".mcp.json": {
-    "mtime": 1783056009.320027,
+    "mtime": 1787003238.7775931,
     "ast_hash": "504719f1ca4aedc9a9f54a86f34046d5",
     "semantic_hash": ""
   },
   ".planning/config.json": {
-    "mtime": 1786081048.4239259,
+    "mtime": 1787003238.7840884,
     "ast_hash": "2e2397119b3eb0c829633ab13e493067",
     "semantic_hash": ""
   },
   ".readme/agent/findings.json": {
-    "mtime": 1786986025.1229174,
+    "mtime": 1787029224.0613453,
     "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
     "semantic_hash": ""
   },
   ".readme/operator/report.json": {
-    "mtime": 1787001774.65096,
+    "mtime": 1787029419.2389295,
     "ast_hash": "47c2ac5920702024eb30153f663a6e02",
     "semantic_hash": ""
   },
@@ -125,102 +125,102 @@
     "semantic_hash": ""
   },
   ".planning/PROJECT.md": {
-    "mtime": 1785991079.0668647,
+    "mtime": 1787003238.7775931,
     "ast_hash": "dc78c6fd99381d6fe498896fc2a58adf",
     "semantic_hash": ""
   },
   ".planning/REQUIREMENTS.md": {
-    "mtime": 1785991290.0316718,
+    "mtime": 1787003238.783311,
     "ast_hash": "41203597c8483ef1ad9f07311e70b81c",
     "semantic_hash": ""
   },
   ".planning/ROADMAP.md": {
-    "mtime": 1785991265.3754041,
+    "mtime": 1787003238.783311,
     "ast_hash": "941dbab376a0b5e17be7c8b067698be0",
     "semantic_hash": ""
   },
   ".planning/STATE.md": {
-    "mtime": 1786996556.0929918,
+    "mtime": 1787003238.783311,
     "ast_hash": "a5fe15bb0aa26e45e18bcd61a5698729",
     "semantic_hash": ""
   },
   ".planning/codebase/ARCHITECTURE.md": {
-    "mtime": 1785990652.4361413,
+    "mtime": 1787003238.7835908,
     "ast_hash": "56a5f2f5530106b0057cadb86418fae6",
     "semantic_hash": ""
   },
   ".planning/codebase/CONCERNS.md": {
-    "mtime": 1785990949.9937806,
+    "mtime": 1787003238.7840884,
     "ast_hash": "723a520e35d1b54e14f632de7660983a",
     "semantic_hash": ""
   },
   ".planning/codebase/CONVENTIONS.md": {
-    "mtime": 1785990761.9875984,
+    "mtime": 1787003238.7840884,
     "ast_hash": "db5fa72b9e30e5b7c0fb720a38f5c4d5",
     "semantic_hash": ""
   },
   ".planning/codebase/INTEGRATIONS.md": {
-    "mtime": 1785990611.9077277,
+    "mtime": 1787003238.7840884,
     "ast_hash": "e7c0289e2a3de1dce5d6a844841f3902",
     "semantic_hash": ""
   },
   ".planning/codebase/STACK.md": {
-    "mtime": 1785990598.4232492,
+    "mtime": 1787003238.7840884,
     "ast_hash": "9cf96fbee964cd7ce6080f715f8c5cf1",
     "semantic_hash": ""
   },
   ".planning/codebase/STRUCTURE.md": {
-    "mtime": 1785990698.7453516,
+    "mtime": 1787003238.7840884,
     "ast_hash": "a57ae60766b7804d2c5f026c24474f57",
     "semantic_hash": ""
   },
   ".planning/codebase/TESTING.md": {
-    "mtime": 1785990785.1139135,
+    "mtime": 1787003238.7840884,
     "ast_hash": "e943b24d6644daf417837475c04f862f",
     "semantic_hash": ""
   },
   ".planning/onboarding/SUMMARY.md": {
-    "mtime": 1785991375.7510798,
+    "mtime": 1787003238.7840884,
     "ast_hash": "79f4955f835a22660d23a5ddc306875b",
     "semantic_hash": ""
   },
   ".planning/quick/260817-kkj-render-headshot-jpg-in-the-resume-web-pa/260817-kkj-PLAN.md": {
-    "mtime": 1786996300.4864206,
+    "mtime": 1787003238.7853413,
     "ast_hash": "a2215fa1526a15b44f89fb616f7daa5c",
     "semantic_hash": ""
   },
   ".readme/agent/_meta.md": {
-    "mtime": 1783056009.110047,
+    "mtime": 1787003238.7859993,
     "ast_hash": "09a5c7a98caa3f20b73c3428e0a70445",
     "semantic_hash": ""
   },
   ".readme/operator/OPERATOR-REPORT.html": {
-    "mtime": 1787001774.65096,
+    "mtime": 1787029419.2389295,
     "ast_hash": "62af9972f8d6e751889cede3b41af9e2",
     "semantic_hash": ""
   },
   ".readme/operator/OPERATOR-REPORT.md": {
-    "mtime": 1787001774.65096,
+    "mtime": 1787029419.2389295,
     "ast_hash": "05673f14b8151abe0518cd1090a39d70",
     "semantic_hash": ""
   },
   ".readme/operator/_meta.html": {
-    "mtime": 1787001725.6904767,
+    "mtime": 1787029224.061882,
     "ast_hash": "3e2222f72a186b381043e77fa08ebd71",
     "semantic_hash": ""
   },
   ".readme/operator/home.html": {
-    "mtime": 1785880931.3263295,
+    "mtime": 1787003238.7867806,
     "ast_hash": "1a2078bb491f464804afe3ef9c2634d1",
     "semantic_hash": ""
   },
   ".readme/operator/secopdev-resume-tracker.html": {
-    "mtime": 1787001774.65096,
+    "mtime": 1787029419.2389295,
     "ast_hash": "7d9714320c65e72dc0302c91a5cb4beb",
     "semantic_hash": ""
   },
   ".readme/operator/secopdev-resume-tracker.md": {
-    "mtime": 1787001774.65096,
+    "mtime": 1787029419.2389295,
     "ast_hash": "51e7585ab86564e282cd654930806727",
     "semantic_hash": ""
   },
@@ -235,12 +235,12 @@
     "semantic_hash": ""
   },
   "_config.yml": {
-    "mtime": 1787001702.862674,
+    "mtime": 1787003238.7867806,
     "ast_hash": "7f6dee1d25965ef09abf04264f5dc4d6",
     "semantic_hash": ""
   },
   "_data/data.yml": {
-    "mtime": 1786996365.9353037,
+    "mtime": 1787003238.7867806,
     "ast_hash": "bc38d1c0c9451dfeb1f67b0de41ac213",
     "semantic_hash": ""
   },
@@ -280,7 +280,7 @@
     "semantic_hash": ""
   },
   "_includes/head.html": {
-    "mtime": 1781631071.8257768,
+    "mtime": 1787003238.7867806,
     "ast_hash": "624df737b3a9fdb83cef34d321072938",
     "semantic_hash": ""
   },
@@ -395,12 +395,12 @@
     "semantic_hash": ""
   },
   "docs/kb/_meta.md": {
-    "mtime": 1783055378.7525632,
+    "mtime": 1787003238.7889588,
     "ast_hash": "e73adf0b4e28b234a0194b880ffd705b",
     "semantic_hash": ""
   },
   "docs/kb/architecture.md": {
-    "mtime": 1782694812.497304,
+    "mtime": 1787003238.7892988,
     "ast_hash": "53c5613c138eba6ed9869f0af976b6a0",
     "semantic_hash": ""
   },
@@ -445,7 +445,7 @@
     "semantic_hash": ""
   },
   "assets/images/headshot.jpg": {
-    "mtime": 1786996362.3480346,
+    "mtime": 1787003238.7867806,
     "ast_hash": "b136464ca2c376f875b32e18ff35bc13",
     "semantic_hash": ""
   },
@@ -10735,18 +10735,43 @@
     "semantic_hash": ""
   },
   ".planning/WINDOWS.md": {
-    "mtime": 1786996435.1419382,
+    "mtime": 1787003238.7835908,
     "ast_hash": "29949fb5b7e11c948838283ea0545a27",
     "semantic_hash": ""
   },
   ".planning/quick/260817-kkj-render-headshot-jpg-in-the-resume-web-pa/260817-kkj-SUMMARY.md": {
-    "mtime": 1786996485.4112048,
+    "mtime": 1787003238.7854939,
     "ast_hash": "63260a90854b428ac57d3d239a8c71c0",
     "semantic_hash": ""
   },
   "docs/project-tracker.md": {
-    "mtime": 1787001680.4793599,
+    "mtime": 1787003238.7892988,
     "ast_hash": "24fe6500b51b3606a4748700fd6ccd2b",
+    "semantic_hash": ""
+  },
+  ".planning/graphs/.last-build-snapshot.json": {
+    "mtime": 1787029391.7766006,
+    "ast_hash": "b5376d33c76d8d26c2b36a6268bc9d69",
+    "semantic_hash": ""
+  },
+  ".planning/graphs/.last-build-status.json": {
+    "mtime": 1787029428.120791,
+    "ast_hash": "70d69f13e801c94ef549662ed08dc250",
+    "semantic_hash": ""
+  },
+  ".planning/graphs/graph.json": {
+    "mtime": 1787029391.7718496,
+    "ast_hash": "b5376d33c76d8d26c2b36a6268bc9d69",
+    "semantic_hash": ""
+  },
+  ".planning/graphs/GRAPH_REPORT.md": {
+    "mtime": 1787029391.7752926,
+    "ast_hash": "620c2ae03015b2aa1e2cffbd1d85a134",
+    "semantic_hash": ""
+  },
+  ".planning/graphs/graph.html": {
+    "mtime": 1787029391.7735786,
+    "ast_hash": "8eff0fb878dddb746ab6024ca4344c08",
     "semantic_hash": ""
   }
 }
