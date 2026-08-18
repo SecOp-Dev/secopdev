@@ -3,18 +3,22 @@ title: "secopdev-resume — tracker"
 description: "Harvested GSD phase status + gap/fix/boost finding registry — generated, never hand-edited."
 type: operator-docs
 status: active
-last_updated: 2026-07-29
+last_updated: 2026-08-18
 sources: [".planning/ROADMAP.md", ".readme/agent/_meta.md", "docs/project-tracker.md"]
 ---
 
 # secopdev-resume — Tracker
 
-**Generated:** 2026-07-29  
-**This file is harvested, not hand-authored.** Regenerate with `python3 ~/.claude/scripts/generate-operator-report.py <project-root>` after updating `_meta.md` / `docs/project-tracker.md` — do not edit by hand.
+**Generated:** 2026-08-18  
+**This file is harvested, not hand-authored.** Regenerate with `python3 ~/dev/tool/readme-kb/site/scripts/generate-operator-report.py <project-root>` after updating `_meta.md` / `docs/project-tracker.md` — do not edit by hand.
 
 ## GSD Phases
 
-_No `.planning/ROADMAP.md` found — not a GSD-managed project._
+| # | Phase | Status |
+|---|---|---|
+| 1 | Environment & Build Reliability | pending |
+| 2 | Security Hardening | pending |
+| 3 | Reliability & Performance Cleanup | pending |
 
 ## Risks and Technical Debts
 

@@ -63,12 +63,12 @@
     </div>
     <div id="legend"></div>
   </div>
-  <div id="stats">0 nodes &middot; 0 edges &middot; 0 communities</div>
+  <div id="stats">4 nodes &middot; 2 edges &middot; 2 communities</div>
 </div>
 <script>
-const RAW_NODES = [];
-const RAW_EDGES = [];
-const LEGEND = [];
+const RAW_NODES = [{"id": "mcp", "label": ".mcp.json", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 25.0, "font": {"size": 12, "color": "#ffffff"}, "title": ".mcp.json", "community": 1, "community_name": "graphify", "source_file": ".mcp.json", "file_type": "code", "degree": 1}, {"id": "mcp_mcp_server_graphify", "label": "graphify", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 40.0, "font": {"size": 12, "color": "#ffffff"}, "title": "graphify", "community": 1, "community_name": "graphify", "source_file": ".mcp.json", "file_type": "code", "degree": 2}, {"id": "mcp_command_graphify_mcp", "label": "graphify-mcp", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 25.0, "font": {"size": 12, "color": "#ffffff"}, "title": "graphify-mcp", "community": 1, "community_name": "graphify", "source_file": ".mcp.json", "file_type": "code", "degree": 1}, {"id": "readme_agent_meta", "label": "_meta.md", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 10.0, "font": {"size": 0, "color": "#ffffff"}, "title": "_meta.md", "community": 0, "community_name": "_meta.md", "source_file": ".readme/agent/_meta.md", "file_type": "document", "degree": 0}];
+const RAW_EDGES = [{"from": "mcp", "to": "mcp_mcp_server_graphify", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "mcp_mcp_server_graphify", "to": "mcp_command_graphify_mcp", "label": "references", "title": "references [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}];
+const LEGEND = [{"cid": 0, "color": "#4E79A7", "label": "_meta.md", "count": 1}, {"cid": 1, "color": "#F28E2B", "label": "graphify", "count": 3}];
 
 // HTML-escape helper — prevents XSS when injecting graph data into innerHTML
 function esc(s) {

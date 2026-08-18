@@ -4,17 +4,78 @@
   "graph": {},
   "nodes": [
     {
+      "label": ".mcp.json",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_config_file"
+      },
+      "_origin": "ast",
+      "id": "mcp",
+      "community": 1,
+      "norm_label": ".mcp.json"
+    },
+    {
+      "label": "graphify",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_server"
+      },
+      "_origin": "ast",
+      "id": "mcp_mcp_server_graphify",
+      "community": 1,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "graphify-mcp",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_command"
+      },
+      "_origin": "ast",
+      "id": "mcp_command_graphify_mcp",
+      "community": 1,
+      "norm_label": "graphify-mcp"
+    },
+    {
       "label": "_meta.md",
       "file_type": "document",
       "source_file": ".readme/agent/_meta.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "readme_agent_meta",
       "community": 0,
-      "norm_label": "_meta.md"
+      "norm_label": "_meta.md",
+      "id": "readme_agent_meta"
     }
   ],
-  "links": [],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mcp",
+      "target": "mcp_mcp_server_graphify"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "command",
+      "source": "mcp_mcp_server_graphify",
+      "target": "mcp_command_graphify_mcp"
+    }
+  ],
   "hyperedges": [],
-  "built_at_commit": "edcf4028fbc4208ea634ac62cd0c37fe339e182a"
+  "built_at_commit": "8f9371795ae0154d959d5ab48e16933d46c985c1"
 }

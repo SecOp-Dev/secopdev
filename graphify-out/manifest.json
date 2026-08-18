@@ -1,9 +1,4 @@
 {
-  ".mcp.json": {
-    "mtime": 1782975189.9912164,
-    "ast_hash": "4bde31acbd18feb82bdfe41efe21824d",
-    "semantic_hash": ""
-  },
   "assets/js/pdf-generator.js": {
     "mtime": 1779052942.2233753,
     "ast_hash": "4cd6ffbda89d4a84c0a19c421f74d181",
@@ -280,18 +275,13 @@
     "semantic_hash": ""
   },
   "docs/kb/_meta.md": {
-    "mtime": 1782695942.3037608,
+    "mtime": 1783055378.7525632,
     "ast_hash": "e73adf0b4e28b234a0194b880ffd705b",
     "semantic_hash": ""
   },
   "docs/kb/architecture.md": {
     "mtime": 1782694812.497304,
     "ast_hash": "53c5613c138eba6ed9869f0af976b6a0",
-    "semantic_hash": ""
-  },
-  "docs/superpowers/plans/2026-05-18-site-verification-and-activation.md": {
-    "mtime": 1779109701.5461788,
-    "ast_hash": "e750bd70fdc5f5638c48b4074940a3cd",
     "semantic_hash": ""
   },
   "index.html": {
@@ -10617,6 +10607,16 @@
   "assets/plugins/font-awesome/svgs/solid/z.svg": {
     "mtime": 1772742634.3108218,
     "ast_hash": "ecf5ca0f6de24291d116fdc23cace068",
+    "semantic_hash": ""
+  },
+  ".readme/agent/_meta.md": {
+    "mtime": 1783055403.748348,
+    "ast_hash": "09a5c7a98caa3f20b73c3428e0a70445",
+    "semantic_hash": ""
+  },
+  ".mcp.json": {
+    "mtime": 1783055755.7906458,
+    "ast_hash": "504719f1ca4aedc9a9f54a86f34046d5",
     "semantic_hash": ""
   }
 }

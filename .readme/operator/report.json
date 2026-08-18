@@ -1,8 +1,24 @@
 {
   "repo": "secopdev-resume",
-  "phases": [],
+  "phases": [
+    {
+      "number": "1",
+      "title": "Environment & Build Reliability",
+      "status": "pending"
+    },
+    {
+      "number": "2",
+      "title": "Security Hardening",
+      "status": "pending"
+    },
+    {
+      "number": "3",
+      "title": "Reliability & Performance Cleanup",
+      "status": "pending"
+    }
+  ],
   "meta": {
-    "generated_at": "2026-07-29",
-    "source_commit": "275157b3f658c47703bfde2e0935fc207897c84c"
+    "generated_at": "2026-08-18",
+    "source_commit": "398970fa95b3b7cc05b5a696beb5afe23bc501f9"
   }
 }
