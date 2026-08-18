@@ -1,16 +1,16 @@
 # Graph Report - secopdev-resume  (2026-08-18)
 
 ## Corpus Check
-- 51 files · ~2,505,994 words
+- 51 files · ~2,512,921 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 690 nodes · 962 edges · 70 communities (55 shown, 15 thin omitted)
+- 689 nodes · 961 edges · 72 communities (57 shown, 15 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 50 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f7d2fac2`
+- Built from commit: `229fa725`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -59,15 +59,17 @@
 - [[_COMMUNITY_regular.min.js|regular.min.js]]
 - [[_COMMUNITY_solid.min.js|solid.min.js]]
 - [[_COMMUNITY_toArray|toArray]]
+- [[_COMMUNITY_toArray|toArray]]
 - [[_COMMUNITY_260817-kkj-PLAN|260817-kkj-PLAN.md]]
 - [[_COMMUNITY_LICENSE|LICENSE.md]]
 - [[_COMMUNITY_WINDOWS|WINDOWS.md]]
 - [[_COMMUNITY_README|README.md]]
+- [[_COMMUNITY_Communities (70 total, 15 thin omitted)|Communities (70 total, 15 thin omitted)]]
 - [[_COMMUNITY_bootstrap.js|bootstrap.js]]
 - [[_COMMUNITY_ScrollSpy|ScrollSpy]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Communities (66 total, 14 thin omitted)` - 37 edges
+1. `Communities (70 total, 15 thin omitted)` - 36 edges
 2. `T()` - 14 edges
 3. `Architecture` - 12 edges
 4. `Graph Report - secopdev-resume  (2026-08-18)` - 11 edges
@@ -93,7 +95,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (70 total, 15 thin omitted)
+## Communities (72 total, 15 thin omitted)
 
 ### Community 2 - "secopdev-resume — Operator Report"
 Cohesion: 0.25
@@ -184,16 +186,16 @@ Cohesion: 0.18
 Nodes (10): Build Reliability, Environment Currency, Out of Scope, Performance, Reliability / Dependencies, Requirements, Security Hardening, Traceability (+2 more)
 
 ### Community 26 - "parseMeta"
-Cohesion: 0.17
-Nodes (13): asSymbol(), attributesParser(), callProvided(), chainHooks(), classArray(), generateMutation(), makeInlineSvgAbstract(), nextUniqueId() (+5 more)
+Cohesion: 0.22
+Nodes (10): asSymbol(), attributesParser(), callProvided(), chainHooks(), generateMutation(), makeInlineSvgAbstract(), nextUniqueId(), onNode() (+2 more)
 
 ### Community 27 - "replace"
 Cohesion: 0.22
 Nodes (10): css(), ensureCss(), getPrefix(), htmlEscape(), insertCss(), joinAttributes(), mixout(), replace() (+2 more)
 
 ### Community 28 - "parseMeta"
-Cohesion: 0.17
-Nodes (13): asSymbol(), attributesParser(), callProvided(), chainHooks(), classArray(), generateMutation(), makeInlineSvgAbstract(), nextUniqueId() (+5 more)
+Cohesion: 0.22
+Nodes (10): asSymbol(), attributesParser(), callProvided(), chainHooks(), generateMutation(), makeInlineSvgAbstract(), nextUniqueId(), onNode() (+2 more)
 
 ### Community 29 - "replace"
 Cohesion: 0.22
@@ -228,15 +230,23 @@ Cohesion: 0.50
 Nodes (4): codePointAt(), hexValueFromContent(), toHex(), ucs2decode()
 
 ### Community 48 - "toArray"
-Cohesion: 0.04
-Nodes (47): Communities (66 total, 14 thin omitted), Community 10 - "Architecture", Community 12 - "conflict-detection.min.js", Community 13 - "Testing Patterns", Community 14 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary", Community 15 - "secopdev-resume — Project Tracker", Community 16 - "secopdev-resume", Community 17 - "Project State" (+39 more)
+Cohesion: 0.67
+Nodes (3): classArray(), onTree(), toArray()
 
-### Community 66 - "bootstrap.js"
+### Community 49 - "toArray"
+Cohesion: 0.67
+Nodes (3): classArray(), onTree(), toArray()
+
+### Community 66 - "Communities (70 total, 15 thin omitted)"
+Cohesion: 0.04
+Nodes (46): Communities (70 total, 15 thin omitted), Community 10 - "Architecture", Community 12 - "conflict-detection.min.js", Community 13 - "Testing Patterns", Community 14 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary", Community 15 - "secopdev-resume — Project Tracker", Community 16 - "secopdev-resume", Community 17 - "Project State" (+38 more)
+
+### Community 68 - "bootstrap.js"
 Cohesion: 0.28
 Nodes (3): clearMenus(), getParent(), getTargetFromTrigger()
 
 ## Knowledge Gaps
-- **190 isolated node(s):** `Corpus Check`, `Summary`, `Graph Freshness`, `Community Hubs (Navigation)`, `God Nodes (most connected - your core abstractions)` (+185 more)
+- **189 isolated node(s):** `Corpus Check`, `Summary`, `Graph Freshness`, `Community Hubs (Navigation)`, `God Nodes (most connected - your core abstractions)` (+184 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -246,13 +256,13 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `T()` connect `conflict-detection.min.js` to `all.min.js`, `fontawesome.min.js`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **Why does `H1()` connect `all.min.js` to `conflict-detection.min.js`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Why does `ye()` connect `fontawesome.min.js` to `conflict-detection.min.js`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `T()` (e.g. with `H1()` and `a()`) actually correct?**
   _`T()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Corpus Check`, `Summary`, `Graph Freshness` to the rest of the system?**
-  _190 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _189 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `.show` be split into smaller, more focused modules?**
   _Cohesion score 0.13970588235294118 - nodes in this community are weakly interconnected._
 - **Should `all.min.js` be split into smaller, more focused modules?**
