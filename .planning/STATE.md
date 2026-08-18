@@ -69,7 +69,7 @@ None yet.
 | # | Description | Date | Commit | Directory |
 |---|-------------|------|--------|-----------|
 | 260817-kkj | render headshot.jpg in the resume web page at the top of the page in a modern, cohesive format | 2026-08-17 | b321f3a | [260817-kkj-render-headshot-jpg-in-the-resume-web-pa](./quick/260817-kkj-render-headshot-jpg-in-the-resume-web-pa/) |
-| 260818-jrw | add JSON-LD Person schema block and audit print CSS for ATS single-column/anchor-link compliance | 2026-08-18 | TBD | [260818-jrw-add-json-ld-person-schema-block-and-audi](./quick/260818-jrw-add-json-ld-person-schema-block-and-audi/) |
+| 260818-jrw | add JSON-LD Person schema block and audit print CSS for ATS single-column/anchor-link compliance | 2026-08-18 | aee61ad | [260818-jrw-add-json-ld-person-schema-block-and-audi](./quick/260818-jrw-add-json-ld-person-schema-block-and-audi/) |
 
 ## Deferred Items
 
