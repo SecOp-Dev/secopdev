@@ -3,13 +3,13 @@ title: "secopdev-resume — operator report"
 description: "Synthesized operator status report — combines .readme/agent/_meta.md structured facts, graphify structural shape, and links to existing deep-detail .readme/ docs."
 type: operator-docs
 status: active
-last_updated: 2026-08-17
+last_updated: 2026-08-22
 sources: [".readme/agent/_meta.md", "graphify-out/graph.json", ".readme/_index.md"]
 ---
 
 # secopdev-resume — Operator Report
 
-**Generated:** 2026-08-17  
+**Generated:** 2026-08-22  
 **Methodology:** synergized per clawdio-standards — structured facts from `.readme/agent/_meta.md` (Phase 3 converged schema), structural shape from graphify (if present), deep detail linked from existing `.readme/` docs (never duplicated). Section shape follows GSD's own `gsd-core/workflows/milestone-summary.md` methodology, applied per-project.
 
 ## Retrieval Notes
@@ -24,24 +24,24 @@ This report answers:
 
 ## 1. Overview
 
-_No `objective`/`problem` fields populated in `_meta.md` yet — see Phase 3 schema (SCHEMA-01)._
+**Objective:** This repo is the online resume for Sean Cullen, a cloud security engineer/architect targeting
+
+**Problem it solves:** Jekyll static site, LIVE at career.secop.dev, content from `_data/data.yml`. Solves the need for a
 
 | | |
 |---|---|
-| **Status** | ⚠️ Attention needed |
-| **Tier** | `2.0-career` |
-| **Repo** | https://github.com/SecOp-Dev/secopdev |
-| **Branch (documented)** | `master` |
-| **Branch (current, live)** | `chore/gsd-planning-bootstrap` |
-| **Tags** | `type/project`, `tier/2.0-career`, `tool/secopdev-resume`, `capability/portfolio-site`, `topic/career` |
+| **Status** | — Unset |
+| **Tier** | `—` |
+| **Repo** | — |
+| **Branch (documented)** | `—` |
+| **Branch (current, live)** | `master` |
 | **Related projects** | sean-cullen-professional-site, resume-data |
 
 ## 2. Status & Next Steps
 
-**Blockers:**
-- redundant with sean-cullen-professional-site — both publish the same resume content on two stacks; a 2026-06-16 plan on sean-cullen-professional-site already names Astro as survivor but the DNS/retirement cutover was never executed
+**Blockers:** none recorded.
 
-**Next action:** hold as live canonical site until sean-cullen-professional-site clears its deploy gate, then execute the planned cutover (DNS + freeze/retire this repo)
+**Next action:** Hold as live canonical site until `sean-cullen-professional-site` clears its deploy gate, then
 
 ```bash
 cat /mnt/q/2.0-career/sean-cullen-professional-site/deploy/README.md
@@ -53,12 +53,17 @@ _No existing `.readme/*.html`/`*.md` deep-detail docs indexed yet._
 
 ## 4. Structural Summary
 
-_No `graphify-out/graph.json` present for this project — no structural graph indexed._
+Source: `graphify-out/graph.json` (718 nodes, 75 communities)
+
+| File type | Nodes |
+|---|---|
+| `code` | 449 |
+| `document` | 269 |
 
 ## 5. Recent Activity
 
-- **Last commit:** d6ab0c9 2026-08-08 19:01:41 -0500 fix(docs): delete dead mkdocs.yml stub
-- **Commits (last 30 days):** 9
+- **Last commit:** 49bfe06 2026-08-18 14:17:18 -0500 docs(state): record commit hash for quick task 260818-jrw
+- **Commits (last 30 days):** 24
 - **`last-documented-sha`:** `—` (compare against `git log -1 --format=%H` to check doc staleness — see `scripts/staleness-check.sh`)
 
 ---

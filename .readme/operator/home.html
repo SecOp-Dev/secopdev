@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<!-- generator: python3 active/config/generate-docs-landing.py (regenerate after any .readme/ change), part of Q:\ Operator Docs (../../../../operator/home.html) -->
+<!-- generator: python3 active/config/generate-docs-landing.py (regenerate after any .readme/ change), part of Dev Operator Docs (../../../../.readme/operator/home.html) -->
 <title>secopdev-resume — Operator Docs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.85em%22 font-size=%2290%22>%F0%9F%93%9A</text></svg>">
 <style>
 :root {
   /* Amethyst-on-obsidian, dark only (operator-chosen — see kb-playground pilot,
@@ -79,8 +80,7 @@ header::after {
 }
 h1 .accent { color: var(--accent); }
 .title-block p.tagline {
-  margin: 0; color: var(--muted); font-size: 0.72rem; max-width: 34ch; overflow: hidden;
-  text-overflow: ellipsis; white-space: nowrap;
+  margin: 0; color: var(--muted); font-size: 0.72rem; white-space: nowrap;
 }
 .breadcrumb {
   font-family: var(--mono); font-size: 0.64rem; color: var(--muted); margin: 0; white-space: nowrap; line-height: 1;
@@ -159,11 +159,16 @@ nav.sidebar {
 .nav-count { font-family: var(--mono); font-size: 0.68rem; color: var(--faint); }
 
 main { grid-row: 2; padding: 2rem 2.25rem 4rem; max-width: 1120px; overflow-y: auto; min-width: 0; }
-/* left-aligned, shrink-to-fit (not centered) — centering via auto margins forced
-   a symmetric dead gutter on BOTH sides of the card column; content now hugs the
-   left edge and any unused track width collects in one predictable place, right
-   before the preview pane, where the resize handle can reclaim it (fix-073) */
-.no-sidebar main { max-width: 1120px; justify-self: start; }
+/* fix-073 originally added justify-self:start here to left-align main instead
+   of centering it — but justify-self:start makes a grid item shrink-to-fit
+   its content instead of stretching to its track, and .doc-card-grid's
+   repeat(auto-fill, minmax(...)) has no available-width signal to expand
+   into inside a shrink-to-fit container, so it silently collapsed to a
+   single column with a huge dead gutter on every project page (fix-077).
+   Default justify-self (stretch) fills the track up to max-width instead —
+   still left-aligned (no margin:auto), but now with a definite width so
+   auto-fill can actually lay out multiple columns. */
+.no-sidebar main { max-width: 1120px; }
 .preview-open main { max-width: none; }
 
 #preview-pane {
@@ -359,22 +364,24 @@ a.doc-card.previewing { background: var(--accent-soft); }
 <body class="no-sidebar">
 <header>
   <div class="title-block">
-    <p class="breadcrumb"><a href="../../../../operator/home.html">Q:\ Operator Docs</a> / <a href="../../../../operator/home.html#tier-20-career">2.0 — Career &amp; Presence</a> / <span class="current">secopdev-resume</span></p>
+    <p class="breadcrumb"><a href="../../../../.readme/operator/home.html">Dev Operator Docs</a> / <a href="../../../home.html">Pro</a> / <span class="current">secopdev-resume</span></p>
     <div class="title-line">
       <h1>secopdev-resume <span class="accent">Docs</span></h1>
-      <p class="tagline">Agent and operator documentation for this repo's <code>.readme/</code> tree.</p>
+      <p class="tagline">Agent and operator documentation for this project's <code>.readme/</code> tree.</p>
       <p class="tagline hosted-hint" id="hosted-hint" style="display:none">Viewing hosted — links don't resolve here. Click a doc to copy its local path, then open it on the workspace machine.</p>
     </div>
   </div>
-  <nav class="pagenav" aria-label="Repo navigation">
+  <nav class="pagenav" aria-label="Project navigation">
+    <a class="nav-btn" href="../../../home.html" title="Up: pro">&#9650; Up</a>
     <button type="button" class="nav-btn" id="nav-back" title="Browser back">&lsaquo; Back</button>
-    <a class="nav-btn" href="../../../sean-cullen-professional-site/.readme/operator/home.html" title="Prev: sean-cullen-professional-site (2.0 — Career &amp; Presence)">&uarr; Prev</a>
-    <a class="nav-btn" href="../../../../3.0-nvlx/kql-ninja/.readme/operator/home.html" title="Next: kql-ninja (3.0 — Novolex SecOps)">&darr; Next</a>
+    <a class="nav-btn" href="../../../sean-cullen-professional-site/.readme/operator/home.html" title="Prev: sean-cullen-professional-site">&uarr; Prev</a>
+    <a class="nav-btn" href="../../../../tool/cloudflare/.readme/operator/home.html" title="Next: cloudflare">&darr; Next</a>
+    <a class="nav-btn" href="../index.html" title="HTML-doc catalog for this project">&#9638; Catalog</a>
   </nav>
   <div class="stats">
-    <div class="stat"><b>9</b><span>documents</span></div>
-    <div class="stat"><b>2.0-career/secopdev-resume/.readme</b><span>path</span></div>
-    <div class="stat"><b>2026-08-04 22:02:11 UTC</b><span>generated</span></div>
+    <div class="stat"><b>10</b><span>documents</span></div>
+    <div class="stat"><b>pro/secopdev-resume/.readme</b><span>path</span></div>
+    <div class="stat"><b>2026-08-21 05:59:00 UTC</b><span>generated</span></div>
   </div>
   <div class="controls">
     <input type="search" id="search" placeholder="Filter by filename… (press /)" autocomplete="off">
@@ -391,7 +398,7 @@ a.doc-card.previewing { background: var(--accent-soft); }
       <div class="facet-group" id="ext-filter">
         <span class="facet-group-label">type</span>
         <button data-ext="all" class="active">All</button>
-        <button data-ext="html">html</button><button data-ext="json">json</button><button data-ext="md">md</button><button data-ext="yml">yml</button>
+        <button data-ext="html">html</button><button data-ext="json">json</button><button data-ext="md">md</button>
       </div>
       <div class="facet-group" id="stale-filter">
         <span class="facet-group-label">age</span>
@@ -407,56 +414,60 @@ a.doc-card.previewing { background: var(--accent-soft); }
 
 <main>
 
-      <section class="tier repo-doc-page" data-tier="2.0-career" data-repo="secopdev-resume">
+      <section class="tier repo-doc-page" data-tier="pro" data-repo="secopdev-resume">
         
         <div class="doc-group" data-pillar-group="operator">
-          <h3 class="doc-group-label pillar-operator">Operator <span class="doc-group-count">6</span></h3>
+          <h3 class="doc-group-label pillar-operator">Operator <span class="doc-group-count">7</span></h3>
           <div class="doc-card-grid">
+              <a class="doc-card" href="../operator/_meta.html" target="_blank" rel="noopener"
+                 title="_meta.html"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/operator/_meta.html" data-preview="../operator/_meta.html"
+                 data-name="_meta.html" data-ext="html" data-pillar="operator"
+                 data-stale="fresh" tabindex="0">
+                <span class="doc-card-top">
+                  <span class="doc-ext ext-html">html</span>
+                  <span class="doc-size">3.4KB</span>
+                </span>
+                <span class="doc-card-name">_meta.html</span>
+                <span class="doc-card-meta">operator &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
+              </a>
               <a class="doc-card" href="../operator/home.html" target="_blank" rel="noopener"
                  title="home.html"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\operator\home.html" data-preview="../operator/home.html"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/operator/home.html" data-preview="../operator/home.html"
                  data-name="home.html" data-ext="html" data-pillar="operator"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
                   <span class="doc-ext ext-html">html</span>
-                  <span class="doc-size">48.4KB</span>
+                  <span class="doc-size">53.8KB</span>
                 </span>
                 <span class="doc-card-name">home.html</span>
-                <span class="doc-card-meta">operator &middot; 2026-08-04 <span class="pill pill-fresh">fresh</span></span>
+                <span class="doc-card-meta">operator &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
               </a>
               <a class="doc-card" href="../operator/OPERATOR-REPORT.html" target="_blank" rel="noopener"
                  title="OPERATOR-REPORT.html"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\operator\OPERATOR-REPORT.html" data-preview="../operator/OPERATOR-REPORT.html"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/operator/OPERATOR-REPORT.html" data-preview="../operator/OPERATOR-REPORT.html"
                  data-name="operator-report.html" data-ext="html" data-pillar="operator"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
                   <span class="doc-ext ext-html">html</span>
-                  <span class="doc-size">5.0KB</span>
+                  <span class="doc-size">4.7KB</span>
                 </span>
                 <span class="doc-card-name">OPERATOR-REPORT.html</span>
-                <span class="doc-card-meta">operator &middot; 2026-07-29 <span class="pill pill-fresh">fresh</span></span>
+                <span class="doc-card-meta">operator &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
               </a>
               <a class="doc-card" href="../operator/OPERATOR-REPORT.md" target="_blank" rel="noopener"
                  title="OPERATOR-REPORT.md"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\operator\OPERATOR-REPORT.md" data-preview="../operator/OPERATOR-REPORT.md"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/operator/OPERATOR-REPORT.md" data-preview="../operator/OPERATOR-REPORT.md"
                  data-name="operator-report.md" data-ext="md" data-pillar="operator"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
                   <span class="doc-ext ext-md">md</span>
-                  <span class="doc-size">2.9KB</span>
+                  <span class="doc-size">2.6KB</span>
                 </span>
                 <span class="doc-card-name">OPERATOR-REPORT.md</span>
-                <span class="doc-card-meta">operator &middot; 2026-07-29 <span class="pill pill-fresh">fresh</span></span>
-              </a><template data-doc-html="../operator/OPERATOR-REPORT.md"><p>---</p>
-<p>title: &quot;secopdev-resume — operator report&quot;</p>
-<p>description: &quot;Synthesized operator status report — combines .readme/agent/_meta.md structured facts, graphify structural shape, and links to existing deep-detail .readme/ docs.&quot;</p>
-<p>type: operator-docs</p>
-<p>status: active</p>
-<p>last_updated: 2026-07-29</p>
-<p>sources: [&quot;.readme/agent/_meta.md&quot;, &quot;graphify-out/graph.json&quot;, &quot;.readme/_index.md&quot;]</p>
-<p>---</p>
-<h1>secopdev-resume — Operator Report</h1>
-<p><strong>Generated:</strong> 2026-07-29  </p>
+                <span class="doc-card-meta">operator &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
+              </a><template data-doc-html="../operator/OPERATOR-REPORT.md"><h1>secopdev-resume — Operator Report</h1>
+<p><strong>Generated:</strong> 2026-08-21  </p>
 <p><strong>Methodology:</strong> synergized per clawdio-standards — structured facts from <code>.readme/agent/_meta.md</code> (Phase 3 converged schema), structural shape from graphify (if present), deep detail linked from existing <code>.readme/</code> docs (never duplicated). Section shape follows GSD&#x27;s own <code>gsd-core/workflows/milestone-summary.md</code> methodology, applied per-project.</p>
 <h2>Retrieval Notes</h2>
 <p>This report answers:</p>
@@ -466,91 +477,85 @@ a.doc-card.previewing { background: var(--accent-soft); }
 <li>- Where is the deeper operator documentation for this project?</li>
 <li>- What&#x27;s the recent development activity (git stats)?</li>
 </ul>
-<p>---</p>
+<hr>
 <h2>1. Overview</h2>
-<p>_No <code>objective</code>/<code>problem</code> fields populated in <code>_meta.md</code> yet — see Phase 3 schema (SCHEMA-01)._</p>
+<p><strong>Objective:</strong> This repo is the online resume for Sean Cullen, a cloud security engineer/architect targeting</p>
+<p><strong>Problem it solves:</strong> Jekyll static site, LIVE at career.secop.dev, content from <code>_data/data.yml</code>. Solves the need for a</p>
 <table><thead><tr><th></th><th></th></tr></thead><tbody>
-<tr><td><strong>Status</strong></td><td>⚠️ Attention needed</td></tr>
-<tr><td><strong>Tier</strong></td><td><code>2.0-career</code></td></tr>
-<tr><td><strong>Repo</strong></td><td>https://github.com/SecOp-Dev/secopdev</td></tr>
-<tr><td><strong>Branch (documented)</strong></td><td><code>master</code></td></tr>
-<tr><td><strong>Branch (current, live)</strong></td><td><code>chore/gsd-planning-bootstrap</code></td></tr>
-<tr><td><strong>Tags</strong></td><td><code>type/project</code>, <code>tier/2.0-career</code>, <code>tool/secopdev-resume</code>, <code>capability/portfolio-site</code>, <code>topic/career</code></td></tr>
+<tr><td><strong>Status</strong></td><td>— Unset</td></tr>
+<tr><td><strong>Tier</strong></td><td><code>—</code></td></tr>
+<tr><td><strong>Repo</strong></td><td>—</td></tr>
+<tr><td><strong>Branch (documented)</strong></td><td><code>—</code></td></tr>
+<tr><td><strong>Branch (current, live)</strong></td><td><code>master</code></td></tr>
 <tr><td><strong>Related projects</strong></td><td>sean-cullen-professional-site, resume-data</td></tr>
 </tbody></table>
 <h2>2. Status &amp; Next Steps</h2>
-<p><strong>Blockers:</strong></p>
-<ul>
-<li>- redundant with sean-cullen-professional-site — both publish the same resume content on two stacks; a 2026-06-16 plan on sean-cullen-professional-site already names Astro as survivor but the DNS/retirement cutover was never executed</li>
-</ul>
-<p><strong>Next action:</strong> hold as live canonical site until sean-cullen-professional-site clears its deploy gate, then execute the planned cutover (DNS + freeze/retire this repo)</p>
+<p><strong>Blockers:</strong> none recorded.</p>
+<p><strong>Next action:</strong> Hold as live canonical site until <code>sean-cullen-professional-site</code> clears its deploy gate, then</p>
 <pre><code data-lang="bash">cat /mnt/q/2.0-career/sean-cullen-professional-site/deploy/README.md</code></pre>
 <h2>3. Deep-Detail Documentation</h2>
 <p>_No existing <code>.readme/<em>.html</code>/<code></em>.md</code> deep-detail docs indexed yet._</p>
 <h2>4. Structural Summary</h2>
-<p>Source: <code>graphify-out/graph.json</code> (1 nodes, 1 communities)</p>
+<p>Source: <code>graphify-out/graph.json</code> (718 nodes, 75 communities)</p>
 <table><thead><tr><th>File type</th><th>Nodes</th></tr></thead><tbody>
-<tr><td><code>document</code></td><td>1</td></tr>
+<tr><td><code>code</code></td><td>449</td></tr>
+<tr><td><code>document</code></td><td>269</td></tr>
 </tbody></table>
 <h2>5. Recent Activity</h2>
 <ul>
-<li>- <strong>Last commit:</strong> 275157b 2026-07-03 00:20:09 -0500 chore(graphify): build code graph + add MCP server config for secopdev-resume</li>
-<li>- <strong>Commits (last 30 days):</strong> 7</li>
+<li>- <strong>Last commit:</strong> 49bfe06 2026-08-18 14:17:18 -0500 docs(state): record commit hash for quick task 260818-jrw</li>
+<li>- <strong>Commits (last 30 days):</strong> 24</li>
 <li>- <strong><code>last-documented-sha</code>:</strong> <code>—</code> (compare against <code>git log -1 --format=%H</code> to check doc staleness — see <code>scripts/staleness-check.sh</code>)</li>
 </ul>
-<p>---</p>
+<hr>
 <p><em>Generated by <code>scripts/generate-operator-report.py</code> — synthesizes existing sources, writes nothing back to <code>_meta.md</code>, <code>architecture.md</code>, <code>graphify-out/</code>, or any pre-existing .readme/ file. Re-run to refresh.</em></p></template>
               <a class="doc-card" href="../operator/report.json" target="_blank" rel="noopener"
                  title="report.json"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\operator\report.json" data-preview="../operator/report.json"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/operator/report.json" data-preview="../operator/report.json"
                  data-name="report.json" data-ext="json" data-pillar="operator"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
                   <span class="doc-ext ext-json">json</span>
-                  <span class="doc-size">163B</span>
+                  <span class="doc-size">484B</span>
                 </span>
                 <span class="doc-card-name">report.json</span>
-                <span class="doc-card-meta">operator &middot; 2026-07-29 <span class="pill pill-fresh">fresh</span></span>
+                <span class="doc-card-meta">operator &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
               </a>
               <a class="doc-card" href="../operator/secopdev-resume-tracker.html" target="_blank" rel="noopener"
                  title="secopdev-resume-tracker.html"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\operator\secopdev-resume-tracker.html" data-preview="../operator/secopdev-resume-tracker.html"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/operator/secopdev-resume-tracker.html" data-preview="../operator/secopdev-resume-tracker.html"
                  data-name="secopdev-resume-tracker.html" data-ext="html" data-pillar="operator"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
                   <span class="doc-ext ext-html">html</span>
-                  <span class="doc-size">3.4KB</span>
+                  <span class="doc-size">3.8KB</span>
                 </span>
                 <span class="doc-card-name">secopdev-resume-tracker.html</span>
-                <span class="doc-card-meta">operator &middot; 2026-07-29 <span class="pill pill-fresh">fresh</span></span>
+                <span class="doc-card-meta">operator &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
               </a>
               <a class="doc-card" href="../operator/secopdev-resume-tracker.md" target="_blank" rel="noopener"
                  title="secopdev-resume-tracker.md"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\operator\secopdev-resume-tracker.md" data-preview="../operator/secopdev-resume-tracker.md"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/operator/secopdev-resume-tracker.md" data-preview="../operator/secopdev-resume-tracker.md"
                  data-name="secopdev-resume-tracker.md" data-ext="md" data-pillar="operator"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
                   <span class="doc-ext ext-md">md</span>
-                  <span class="doc-size">977B</span>
+                  <span class="doc-size">1.1KB</span>
                 </span>
                 <span class="doc-card-name">secopdev-resume-tracker.md</span>
-                <span class="doc-card-meta">operator &middot; 2026-07-29 <span class="pill pill-fresh">fresh</span></span>
-              </a><template data-doc-html="../operator/secopdev-resume-tracker.md"><p>---</p>
-<p>title: &quot;secopdev-resume — tracker&quot;</p>
-<p>description: &quot;Harvested GSD phase status + gap/fix/boost finding registry — generated, never hand-edited.&quot;</p>
-<p>type: operator-docs</p>
-<p>status: active</p>
-<p>last_updated: 2026-07-29</p>
-<p>sources: [&quot;.planning/ROADMAP.md&quot;, &quot;.readme/agent/_meta.md&quot;, &quot;docs/project-tracker.md&quot;]</p>
-<p>---</p>
-<h1>secopdev-resume — Tracker</h1>
-<p><strong>Generated:</strong> 2026-07-29  </p>
-<p><strong>This file is harvested, not hand-authored.</strong> Regenerate with <code>python3 ~/.claude/scripts/generate-operator-report.py &lt;project-root&gt;</code> after updating <code>_meta.md</code> / <code>docs/project-tracker.md</code> — do not edit by hand.</p>
+                <span class="doc-card-meta">operator &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
+              </a><template data-doc-html="../operator/secopdev-resume-tracker.md"><h1>secopdev-resume — Tracker</h1>
+<p><strong>Generated:</strong> 2026-08-21  </p>
+<p><strong>This file is harvested, not hand-authored.</strong> Regenerate with <code>python3 ~/dev/tool/readme-kb/site/scripts/generate-operator-report.py &lt;project-root&gt;</code> after updating <code>_meta.md</code> / <code>docs/project-tracker.md</code> — do not edit by hand.</p>
 <h2>GSD Phases</h2>
-<p>_No <code>.planning/ROADMAP.md</code> found — not a GSD-managed project._</p>
+<table><thead><tr><th>#</th><th>Phase</th><th>Status</th></tr></thead><tbody>
+<tr><td>1</td><td>Environment &amp; Build Reliability</td><td>pending</td></tr>
+<tr><td>2</td><td>Security Hardening</td><td>pending</td></tr>
+<tr><td>3</td><td>Reliability &amp; Performance Cleanup</td><td>pending</td></tr>
+</tbody></table>
 <h2>Risks and Technical Debts</h2>
 <p>_No gap/fix/boost findings recorded._</p>
-<p>---</p>
+<hr>
 <p><em>Generated by <code>scripts/generate-operator-report.py</code> — harvests <code>.planning/ROADMAP.md</code> phase checkboxes and <code>## Risks and Technical Debts</code> findings from <code>_meta.md</code>/<code>project-tracker.md</code>. Writes nothing back to any source file. Re-run to refresh.</em></p></template></div>
         </div>
         <div class="doc-group" data-pillar-group="agent">
@@ -558,45 +563,20 @@ a.doc-card.previewing { background: var(--accent-soft); }
           <div class="doc-card-grid">
               <a class="doc-card" href="../agent/_meta.md" target="_blank" rel="noopener"
                  title="_meta.md"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\agent\_meta.md" data-preview="../agent/_meta.md"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/agent/_meta.md" data-preview="../agent/_meta.md"
                  data-name="_meta.md" data-ext="md" data-pillar="agent"
-                 data-stale="aging" tabindex="0">
+                 data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
                   <span class="doc-ext ext-md">md</span>
                   <span class="doc-size">1.5KB</span>
                 </span>
                 <span class="doc-card-name">_meta.md</span>
-                <span class="doc-card-meta">agent &middot; 2026-07-03 </span>
-              </a><template data-doc-html="../agent/_meta.md"><p>---</p>
-<p>type: project</p>
-<p>title: &quot;secopdev-resume&quot;</p>
-<p>aliases: [&quot;career-resume-site&quot;]</p>
-<p>tags:</p>
-<p>  - type/project</p>
-<p>  - tier/2.0-career</p>
-<p>  - tool/secopdev-resume</p>
-<p>  - capability/portfolio-site</p>
-<p>  - topic/career</p>
-<p>status: active</p>
-<p>created: 2026-07-02</p>
-<p>updated: 2026-07-02</p>
-<p>related: [&quot;sean-cullen-professional-site&quot;, &quot;resume-data&quot;]</p>
-<p>repo: &quot;https://github.com/SecOp-Dev/secopdev&quot;</p>
-<p>branch: master</p>
-<p>live: true</p>
-<p>rag-flag: &quot;yellow&quot;</p>
-<p>blockers: [&quot;redundant with sean-cullen-professional-site — both publish the same resume content on two stacks; a 2026-06-16 plan on sean-cullen-professional-site already names Astro as survivor but the DNS/retirement cutover was never executed&quot;]</p>
-<p>next-action: &quot;hold as live canonical site until sean-cullen-professional-site clears its deploy gate, then execute the planned cutover (DNS + freeze/retire this repo)&quot;</p>
-<p>next-command: &quot;cat /mnt/q/2.0-career/sean-cullen-professional-site/deploy/README.md&quot;</p>
-<p>last-documented-sha: &quot;&quot;</p>
-<p>tier: &quot;2.0-career&quot;</p>
-<p>docs: &quot;.readme/agent/&quot;</p>
-<p>---</p>
-<p>&lt;!-- frontmatter anchor for kb-sync harvest. Do not rename this file. --&gt;</p>
+                <span class="doc-card-meta">agent &middot; 2026-08-17 <span class="pill pill-fresh">fresh</span></span>
+              </a><template data-doc-html="../agent/_meta.md"><p>&lt;!-- frontmatter anchor for kb-sync harvest. Do not rename this file. --&gt;</p>
 <p>Jekyll static site, LIVE at career.secop.dev, content from <code>_data/data.yml</code>. Currently the canonical published resume — but a documented, already-decided (2026-06-16) plan on <code>sean-cullen-professional-site</code> names that Astro rebuild as this repo&#x27;s successor. Not yet executed: DNS cutover and this repo&#x27;s retirement are pending, gated on the other repo&#x27;s Cloudflare Tunnel + content sign-off, not on any open question in this repo itself. See [[career-tier-resume-consolidation]] memory for the full finding.</p></template>
               <a class="doc-card" href="../agent/findings.json" target="_blank" rel="noopener"
                  title="findings.json"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\agent\findings.json" data-preview="../agent/findings.json"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/agent/findings.json" data-preview="../agent/findings.json"
                  data-name="findings.json" data-ext="json" data-pillar="agent"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
@@ -604,26 +584,38 @@ a.doc-card.previewing { background: var(--accent-soft); }
                   <span class="doc-size">3B</span>
                 </span>
                 <span class="doc-card-name">findings.json</span>
-                <span class="doc-card-meta">agent &middot; 2026-07-29 <span class="pill pill-fresh">fresh</span></span>
+                <span class="doc-card-meta">agent &middot; 2026-08-21 <span class="pill pill-fresh">fresh</span></span>
               </a></div>
         </div>
         <div class="doc-group" data-pillar-group="index">
           <h3 class="doc-group-label pillar-index">Index <span class="doc-group-count">1</span></h3>
           <div class="doc-card-grid">
-              <a class="doc-card" href="../mkdocs.yml" target="_blank" rel="noopener"
-                 title="mkdocs.yml"
-                 data-abspath="Q:\2.0-career\secopdev-resume\.readme\mkdocs.yml" data-preview="../mkdocs.yml"
-                 data-name="mkdocs.yml" data-ext="yml" data-pillar="index"
+              <a class="doc-card" href="../index.html" target="_blank" rel="noopener"
+                 title="index.html"
+                 data-abspath="/home/rooter/dev/pro/secopdev-resume/.readme/index.html" data-preview="../index.html"
+                 data-name="index.html" data-ext="html" data-pillar="index"
                  data-stale="fresh" tabindex="0">
                 <span class="doc-card-top">
-                  <span class="doc-ext ext-yml">yml</span>
-                  <span class="doc-size">90B</span>
+                  <span class="doc-ext ext-html">html</span>
+                  <span class="doc-size">6.4KB</span>
                 </span>
-                <span class="doc-card-name">mkdocs.yml</span>
-                <span class="doc-card-meta">2026-07-22 <span class="pill pill-fresh">fresh</span></span>
+                <span class="doc-card-name">index.html</span>
+                <span class="doc-card-meta">2026-08-21 <span class="pill pill-fresh">fresh</span></span>
               </a></div>
         </div>
       </section>
+      
+    <section class="raw-html-section">
+      <h2>Raw HTML Files</h2>
+      <p class="tagline">Any <code>*.html</code> file found anywhere under this project's own
+      directory tree, not just <code>.readme/</code>.</p>
+      
+        <div class="table-card">
+          <div class="table-card-header"><span class="tc-name">Raw HTML Files</span>
+            <span class="tc-vol">28 files</span></div>
+          <div class="table-card-body"><a class="tc-link" data-stale="fresh" href="../index.html" target="_blank" rel="noopener">.readme/index.html <span class="tc-vol">6.4KB</span> <span class="tc-pill tc-pill-fresh">fresh</span></a><a class="tc-link" data-stale="fresh" href="OPERATOR-REPORT.html" target="_blank" rel="noopener">.readme/operator/OPERATOR-REPORT.html <span class="tc-vol">4.7KB</span> <span class="tc-pill tc-pill-fresh">fresh</span></a><a class="tc-link" data-stale="fresh" href="_meta.html" target="_blank" rel="noopener">.readme/operator/_meta.html <span class="tc-vol">3.4KB</span> <span class="tc-pill tc-pill-fresh">fresh</span></a><a class="tc-link" data-stale="fresh" href="home.html" target="_blank" rel="noopener">.readme/operator/home.html <span class="tc-vol">53.8KB</span> <span class="tc-pill tc-pill-fresh">fresh</span></a><a class="tc-link" data-stale="fresh" href="secopdev-resume-tracker.html" target="_blank" rel="noopener">.readme/operator/secopdev-resume-tracker.html <span class="tc-vol">3.8KB</span> <span class="tc-pill tc-pill-fresh">fresh</span></a><a class="tc-link" data-stale="stale" href="../../_includes/about.html" target="_blank" rel="noopener">_includes/about.html <span class="tc-vol">469B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/career-profile.html" target="_blank" rel="noopener">_includes/career-profile.html <span class="tc-vol">396B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/certifications.html" target="_blank" rel="noopener">_includes/certifications.html <span class="tc-vol">1.5KB</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/contact.html" target="_blank" rel="noopener">_includes/contact.html <span class="tc-vol">4.8KB</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/education.html" target="_blank" rel="noopener">_includes/education.html <span class="tc-vol">1.5KB</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/experiences.html" target="_blank" rel="noopener">_includes/experiences.html <span class="tc-vol">842B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/footer.html" target="_blank" rel="noopener">_includes/footer.html <span class="tc-vol">525B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="fresh" href="../../_includes/head.html" target="_blank" rel="noopener">_includes/head.html <span class="tc-vol">4.5KB</span> <span class="tc-pill tc-pill-fresh">fresh</span></a><a class="tc-link" data-stale="stale" href="../../_includes/highlights.html" target="_blank" rel="noopener">_includes/highlights.html <span class="tc-vol">403B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/interests.html" target="_blank" rel="noopener">_includes/interests.html <span class="tc-vol">540B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/language.html" target="_blank" rel="noopener">_includes/language.html <span class="tc-vol">473B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/oss-contributions.html" target="_blank" rel="noopener">_includes/oss-contributions.html <span class="tc-vol">847B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/projects.html" target="_blank" rel="noopener">_includes/projects.html <span class="tc-vol">870B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/publications.html" target="_blank" rel="noopener">_includes/publications.html <span class="tc-vol">871B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/recommendations.html" target="_blank" rel="noopener">_includes/recommendations.html <span class="tc-vol">1.2KB</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/scripts.html" target="_blank" rel="noopener">_includes/scripts.html <span class="tc-vol">639B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/sidebar.html" target="_blank" rel="noopener">_includes/sidebar.html <span class="tc-vol">861B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_includes/skills.html" target="_blank" rel="noopener">_includes/skills.html <span class="tc-vol">672B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_layouts/compress.html" target="_blank" rel="noopener">_layouts/compress.html <span class="tc-vol">4.6KB</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_layouts/default.html" target="_blank" rel="noopener">_layouts/default.html <span class="tc-vol">1015B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../_layouts/print.html" target="_blank" rel="noopener">_layouts/print.html <span class="tc-vol">626B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../index.html" target="_blank" rel="noopener">index.html <span class="tc-vol">441B</span> <span class="tc-pill tc-pill-stale">stale</span></a><a class="tc-link" data-stale="stale" href="../../print.html" target="_blank" rel="noopener">print.html <span class="tc-vol">425B</span> <span class="tc-pill tc-pill-stale">stale</span></a></div>
+        </div>
+    </section>
 <div class="empty-state" id="empty-state">No documents match this filter.</div>
 </main>
 <div class="resize-handle" id="preview-resize"></div>

@@ -3,13 +3,13 @@ title: "secopdev-resume — tracker"
 description: "Harvested GSD phase status + gap/fix/boost finding registry — generated, never hand-edited."
 type: operator-docs
 status: active
-last_updated: 2026-08-17
+last_updated: 2026-08-22
 sources: [".planning/ROADMAP.md", ".readme/agent/_meta.md", "docs/project-tracker.md"]
 ---
 
 # secopdev-resume — Tracker
 
-**Generated:** 2026-08-17  
+**Generated:** 2026-08-22  
 **This file is harvested, not hand-authored.** Regenerate with `python3 ~/dev/tool/readme-kb/site/scripts/generate-operator-report.py <project-root>` after updating `_meta.md` / `docs/project-tracker.md` — do not edit by hand.
 
 ## GSD Phases
