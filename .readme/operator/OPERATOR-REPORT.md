@@ -3,13 +3,13 @@ title: "secopdev-resume — operator report"
 description: "Synthesized operator status report — combines .readme/agent/_meta.md structured facts, graphify structural shape, and links to existing deep-detail .readme/ docs."
 type: operator-docs
 status: active
-last_updated: 2026-08-22
+last_updated: 2026-08-24
 sources: [".readme/agent/_meta.md", "graphify-out/graph.json", ".readme/_index.md"]
 ---
 
 # secopdev-resume — Operator Report
 
-**Generated:** 2026-08-22  
+**Generated:** 2026-08-24  
 **Methodology:** synergized per clawdio-standards — structured facts from `.readme/agent/_meta.md` (Phase 3 converged schema), structural shape from graphify (if present), deep detail linked from existing `.readme/` docs (never duplicated). Section shape follows GSD's own `gsd-core/workflows/milestone-summary.md` methodology, applied per-project.
 
 ## Retrieval Notes
@@ -62,8 +62,8 @@ Source: `graphify-out/graph.json` (718 nodes, 75 communities)
 
 ## 5. Recent Activity
 
-- **Last commit:** 49bfe06 2026-08-18 14:17:18 -0500 docs(state): record commit hash for quick task 260818-jrw
-- **Commits (last 30 days):** 24
+- **Last commit:** 11e63b0 2026-08-22 23:13:52 -0500 docs(readme): regenerate .readme operator/agent docs
+- **Commits (last 30 days):** 25
 - **`last-documented-sha`:** `—` (compare against `git log -1 --format=%H` to check doc staleness — see `scripts/staleness-check.sh`)
 
 ---

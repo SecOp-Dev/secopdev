@@ -5,18 +5,18 @@
     "semantic_hash": ""
   },
   ".planning/config.json": {
-    "mtime": 1787003238.7840884,
-    "ast_hash": "2e2397119b3eb0c829633ab13e493067",
+    "mtime": 1787596067.4698536,
+    "ast_hash": "b512fb54b6e50063a4da530101b10ca0",
     "semantic_hash": ""
   },
   ".readme/agent/findings.json": {
-    "mtime": 1787029224.0613453,
+    "mtime": 1787590829.2691278,
     "ast_hash": "58e0494c51d30eb3494f7c9198986bb9",
     "semantic_hash": ""
   },
   ".readme/operator/report.json": {
-    "mtime": 1787029419.2389295,
-    "ast_hash": "47c2ac5920702024eb30153f663a6e02",
+    "mtime": 1787590829.2692578,
+    "ast_hash": "0dd8d3083bd4893a8da044917da6855f",
     "semantic_hash": ""
   },
   "assets/js/pdf-generator.js": {
@@ -140,8 +140,8 @@
     "semantic_hash": ""
   },
   ".planning/STATE.md": {
-    "mtime": 1787003238.783311,
-    "ast_hash": "a5fe15bb0aa26e45e18bcd61a5698729",
+    "mtime": 1787080633.1008425,
+    "ast_hash": "6bd28eadefccd36800f40bb0975ce391",
     "semantic_hash": ""
   },
   ".planning/codebase/ARCHITECTURE.md": {
@@ -195,33 +195,33 @@
     "semantic_hash": ""
   },
   ".readme/operator/OPERATOR-REPORT.html": {
-    "mtime": 1787029419.2389295,
-    "ast_hash": "62af9972f8d6e751889cede3b41af9e2",
+    "mtime": 1787590829.266059,
+    "ast_hash": "3758ecb032b381823876fd0cd6a8e4fb",
     "semantic_hash": ""
   },
   ".readme/operator/OPERATOR-REPORT.md": {
-    "mtime": 1787029419.2389295,
-    "ast_hash": "05673f14b8151abe0518cd1090a39d70",
+    "mtime": 1787590829.2659063,
+    "ast_hash": "ed81cf3896f6d14351b71703a0ad3e97",
     "semantic_hash": ""
   },
   ".readme/operator/_meta.html": {
-    "mtime": 1787029224.061882,
-    "ast_hash": "3e2222f72a186b381043e77fa08ebd71",
+    "mtime": 1787590829.2698722,
+    "ast_hash": "bcbfc83994371655e12a953c27bd5bbc",
     "semantic_hash": ""
   },
   ".readme/operator/home.html": {
-    "mtime": 1787003238.7867806,
-    "ast_hash": "1a2078bb491f464804afe3ef9c2634d1",
+    "mtime": 1787291940.3331454,
+    "ast_hash": "b83be1c74d6dac5b1d58ae07c816126c",
     "semantic_hash": ""
   },
   ".readme/operator/secopdev-resume-tracker.html": {
-    "mtime": 1787029419.2389295,
-    "ast_hash": "7d9714320c65e72dc0302c91a5cb4beb",
+    "mtime": 1787590829.2673125,
+    "ast_hash": "076af19e37c67c0e58592098a731e99d",
     "semantic_hash": ""
   },
   ".readme/operator/secopdev-resume-tracker.md": {
-    "mtime": 1787029419.2389295,
-    "ast_hash": "51e7585ab86564e282cd654930806727",
+    "mtime": 1787590829.2672272,
+    "ast_hash": "97891ca6e7eddc7b8dc709948f3809b7",
     "semantic_hash": ""
   },
   "LICENSE.md": {
@@ -10750,28 +10750,48 @@
     "semantic_hash": ""
   },
   ".planning/graphs/.last-build-snapshot.json": {
-    "mtime": 1787029391.7766006,
-    "ast_hash": "b5376d33c76d8d26c2b36a6268bc9d69",
+    "mtime": 1787081908.914699,
+    "ast_hash": "0366db9d30432f88d3ec799897379527",
     "semantic_hash": ""
   },
   ".planning/graphs/.last-build-status.json": {
-    "mtime": 1787029428.120791,
-    "ast_hash": "70d69f13e801c94ef549662ed08dc250",
+    "mtime": 1787081908.9604704,
+    "ast_hash": "ba0bbd266abc19cc246bda3d3e682341",
     "semantic_hash": ""
   },
   ".planning/graphs/graph.json": {
-    "mtime": 1787029391.7718496,
-    "ast_hash": "b5376d33c76d8d26c2b36a6268bc9d69",
+    "mtime": 1787081908.9098244,
+    "ast_hash": "0366db9d30432f88d3ec799897379527",
     "semantic_hash": ""
   },
   ".planning/graphs/GRAPH_REPORT.md": {
-    "mtime": 1787029391.7752926,
-    "ast_hash": "620c2ae03015b2aa1e2cffbd1d85a134",
+    "mtime": 1787081908.9130855,
+    "ast_hash": "180930be923f60d8888e86016f133623",
     "semantic_hash": ""
   },
   ".planning/graphs/graph.html": {
-    "mtime": 1787029391.7735786,
-    "ast_hash": "8eff0fb878dddb746ab6024ca4344c08",
+    "mtime": 1787081908.911469,
+    "ast_hash": "122f424bf05092ec865f37f4e52d8832",
+    "semantic_hash": ""
+  },
+  ".planning/quick/260818-jrw-add-json-ld-person-schema-block-and-audi/260818-jrw-PLAN.md": {
+    "mtime": 1787080592.7597818,
+    "ast_hash": "226544b507bf97af6d07804ff77072ed",
+    "semantic_hash": ""
+  },
+  ".planning/quick/260818-jrw-add-json-ld-person-schema-block-and-audi/260818-jrw-SUMMARY.md": {
+    "mtime": 1787080600.553584,
+    "ast_hash": "04cd312a596dcd2f46182c4ad56bdb8e",
+    "semantic_hash": ""
+  },
+  ".planning/research/ats-optimization-research.md": {
+    "mtime": 1787076694.7795656,
+    "ast_hash": "e5d5eeb8bb4d65da9bb13b3d7d0ee969",
+    "semantic_hash": ""
+  },
+  ".readme/index.html": {
+    "mtime": 1787291940.333791,
+    "ast_hash": "65f3d52fc3c7d150db97e1ea40a950d8",
     "semantic_hash": ""
   }
 }

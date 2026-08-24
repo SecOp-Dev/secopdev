@@ -1,16 +1,16 @@
 # Graph Report - secopdev-resume  (2026-08-18)
 
 ## Corpus Check
-- 51 files · ~2,513,108 words
+- 54 files · ~2,519,201 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 691 nodes · 963 edges · 71 communities (56 shown, 15 thin omitted)
+- 718 nodes · 987 edges · 75 communities (60 shown, 15 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 50 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dec0f95b`
+- Built from commit: `49bfe068`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -60,21 +60,25 @@
 - [[_COMMUNITY_solid.min.js|solid.min.js]]
 - [[_COMMUNITY_secopdev-resume — Tracker|secopdev-resume — Tracker]]
 - [[_COMMUNITY_toArray|toArray]]
-- [[_COMMUNITY_toArray|toArray]]
+- [[_COMMUNITY_ATS & Machine-Readability Research — career.secop.dev|ATS & Machine-Readability Research — career.secop.dev]]
 - [[_COMMUNITY_graphify|graphify]]
 - [[_COMMUNITY_LICENSE|LICENSE.md]]
 - [[_COMMUNITY_README|README.md]]
 - [[_COMMUNITY_bootstrap.js|bootstrap.js]]
 - [[_COMMUNITY_ScrollSpy|ScrollSpy]]
+- [[_COMMUNITY_Summary JSON-LD block + print CSS audit|Summary: JSON-LD block + /print CSS audit]]
+- [[_COMMUNITY_Quick Task JSON-LD block + print CSS audit|Quick Task: JSON-LD block + /print CSS audit]]
+- [[_COMMUNITY_Graph Report - secopdev-resume  (2026-08-18)|Graph Report - secopdev-resume  (2026-08-18)]]
+- [[_COMMUNITY_toArray|toArray]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Communities (72 total, 15 thin omitted)` - 38 edges
+1. `Communities (76 total, 15 thin omitted)` - 42 edges
 2. `T()` - 14 edges
 3. `Architecture` - 12 edges
-4. `Graph Report - secopdev-resume  (2026-08-18)` - 11 edges
+4. `provides()` - 11 edges
 5. `provides()` - 11 edges
-6. `provides()` - 11 edges
-7. `Testing Patterns` - 11 edges
+6. `Testing Patterns` - 11 edges
+7. `Graph Report - secopdev-resume  (2026-08-18)` - 11 edges
 8. `Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary` - 11 edges
 9. `provides()` - 10 edges
 10. `r()` - 10 edges
@@ -94,7 +98,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (71 total, 15 thin omitted)
+## Communities (75 total, 15 thin omitted)
 
 ### Community 0 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary"
 Cohesion: 0.13
@@ -229,19 +233,35 @@ Cohesion: 0.50
 Nodes (3): GSD Phases, Risks and Technical Debts, secopdev-resume — Tracker
 
 ### Community 48 - "toArray"
-Cohesion: 0.04
-Nodes (48): Communities (72 total, 15 thin omitted), Community 10 - "Architecture", Community 12 - "conflict-detection.min.js", Community 13 - "Testing Patterns", Community 14 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary", Community 15 - "secopdev-resume — Project Tracker", Community 16 - "secopdev-resume", Community 17 - "Project State" (+40 more)
+Cohesion: 0.05
+Nodes (42): Communities (76 total, 15 thin omitted), Community 0 - "Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary", Community 10 - "Architecture", Community 12 - "conflict-detection.min.js", Community 13 - "Testing Patterns", Community 14 - "secopdev-resume — Project Tracker", Community 15 - "secopdev-resume", Community 16 - "provides" (+34 more)
 
-### Community 49 - "toArray"
-Cohesion: 0.67
-Nodes (3): classArray(), onTree(), toArray()
+### Community 49 - "ATS & Machine-Readability Research — career.secop.dev"
+Cohesion: 0.15
+Nodes (12): 1. What do employers/recruiters actually DO with a site like career.secop.dev?, 2. How to optimize for the *actual* machine-reading channels, 3. Enhancements for both human and machine consumption, Answers, ATS & Machine-Readability Research — career.secop.dev, Explicitly out of scope / not recommended, Finding 1 — ATS never crawls the live website, Finding 2 — who actually reads career.secop.dev, and how (+4 more)
 
 ### Community 67 - "bootstrap.js"
 Cohesion: 0.28
 Nodes (3): clearMenus(), getParent(), getTargetFromTrigger()
 
+### Community 71 - "Summary: JSON-LD block + /print CSS audit"
+Cohesion: 0.33
+Nodes (5): Files changed, Not done / follow-up, Summary: JSON-LD block + /print CSS audit, Verification, What happened
+
+### Community 72 - "Quick Task: JSON-LD block + /print CSS audit"
+Cohesion: 0.50
+Nodes (3): Quick Task: JSON-LD block + /print CSS audit, Task 1 — JSON-LD block, Task 2 — /print CSS audit
+
+### Community 74 - "Graph Report - secopdev-resume  (2026-08-18)"
+Cohesion: 0.18
+Nodes (10): Community Hubs (Navigation), Corpus Check, God Nodes (most connected - your core abstractions), Graph Freshness, Graph Report - secopdev-resume  (2026-08-18), Import Cycles, Knowledge Gaps, Suggested Questions (+2 more)
+
+### Community 75 - "toArray"
+Cohesion: 0.67
+Nodes (3): classArray(), onTree(), toArray()
+
 ## Knowledge Gaps
-- **191 isolated node(s):** `Corpus Check`, `Summary`, `Graph Freshness`, `Community Hubs (Navigation)`, `God Nodes (most connected - your core abstractions)` (+186 more)
+- **211 isolated node(s):** `graphify-mcp`, `What This Is`, `Core Value`, `Business Context`, `Validated` (+206 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -249,15 +269,15 @@ Nodes (3): clearMenus(), getParent(), getTargetFromTrigger()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `T()` connect `conflict-detection.min.js` to `Deviations from Plan`, `260817-kkj-SUMMARY.md`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **Why does `H1()` connect `Deviations from Plan` to `conflict-detection.min.js`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `ye()` connect `260817-kkj-SUMMARY.md` to `conflict-detection.min.js`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `T()` (e.g. with `H1()` and `a()`) actually correct?**
   _`T()` has 10 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `Corpus Check`, `Summary`, `Graph Freshness` to the rest of the system?**
-  _191 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `graphify-mcp`, `What This Is`, `Core Value` to the rest of the system?**
+  _211 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Quick Task 260817-kkj: Render Headshot JPG in Resume Sidebar Summary` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Accumulated Context` be split into smaller, more focused modules?**

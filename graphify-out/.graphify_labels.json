@@ -48,7 +48,7 @@
   "46": ".checkPosition",
   "47": ".dimension",
   "48": "toArray",
-  "49": "toArray",
+  "49": "ATS & Machine-Readability Research — career.secop.dev",
   "50": "v4-shims.js",
   "51": "graphify",
   "52": "v4-shims.min.js",
@@ -69,5 +69,9 @@
   "67": "bootstrap.js",
   "68": ".toggle",
   "69": "ScrollSpy",
-  "70": ".show"
+  "70": ".show",
+  "71": "Summary: JSON-LD block + /print CSS audit",
+  "72": "Quick Task: JSON-LD block + /print CSS audit",
+  "74": "Graph Report - secopdev-resume  (2026-08-18)",
+  "75": "toArray"
 }
