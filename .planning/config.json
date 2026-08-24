@@ -15,7 +15,8 @@
     "create_tag": true,
     "phase_branch_template": "gsd/phase-{phase}-{slug}",
     "milestone_branch_template": "gsd/{milestone}-{slug}",
-    "quick_branch_template": null
+    "quick_branch_template": "gsd/quick-{quick}-{slug}",
+    "base_branch": null
   },
   "workflow": {
     "research": false,
@@ -49,7 +50,16 @@
     "security_block_on": "high",
     "tdd_mode": false,
     "ui_review": true,
-    "use_worktrees": true
+    "use_worktrees": true,
+    "agent_hint_routing": true,
+    "smart_zone_tokens": 100000,
+    "max_discuss_passes": 3,
+    "subagent_timeout": 300000,
+    "context_coverage_gate": true,
+    "drift_action": "warn",
+    "drift_threshold": 3,
+    "schema_drift_gate": true,
+    "plan_drift_precheck": true
   },
   "ship": {
     "pr_body_sections": [
@@ -86,7 +96,7 @@
   "project_code": null,
   "phase_naming": "sequential",
   "agent_skills": {},
-  "claude_md_path": ".claude/CLAUDE.md",
+  "claude_md_path": "./.claude/CLAUDE.md",
   "plan_review": {
     "source_grounding": true,
     "source_grounding_authority": "grep"
@@ -107,5 +117,41 @@
   "mempalace": {
     "enabled": true,
     "cross_project_tunnels": true
+  },
+  "context_window": 200000,
+  "phase_id_convention": null,
+  "planning": {
+    "commit_docs": true,
+    "search_gitignored": false,
+    "sub_repos": [],
+    "granularity": "standard"
+  },
+  "effort": {
+    "default": "high",
+    "routing_tier_defaults": {
+      "light": "low",
+      "standard": "high",
+      "heavy": "xhigh"
+    }
+  },
+  "fast_mode": {
+    "enabled": false,
+    "routing_tier_defaults": {
+      "light": true,
+      "standard": false,
+      "heavy": false
+    }
+  },
+  "capabilities": {
+    "strict_known_registries": null,
+    "auto_update": false
+  },
+  "executor": {
+    "stall_detect_interval_minutes": 5,
+    "stall_threshold_minutes": 10
+  },
+  "planner": {
+    "stall_detect_interval_minutes": 5,
+    "stall_threshold_minutes": 10
   }
 }
