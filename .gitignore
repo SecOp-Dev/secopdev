@@ -22,3 +22,7 @@ graphify-out/[0-9]*/
 # MemPalace per-project files (issue #185)
 mempalace.yaml
 entities.json
+
+# Operator directive 2026-08-25: .planning/graphs is the /gsd-graphify copy
+# path, duplicating graphify-out/. Gitignored fleet-wide. See ADR-0018.
+.planning/graphs/
